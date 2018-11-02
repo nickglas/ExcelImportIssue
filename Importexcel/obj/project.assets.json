@@ -5960,17 +5960,17 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "Zh0tbHYSbNA81VLxYrgQKweN7FH8IqN1MpQ3CbNljT+3+IO46JoGKG1scf+LpyWpVrM77Pw73fNxKcySJU0+tw==",
+      "sha512": "ObjJYmwtAAOUGKooEeuYX/KTw0L7y8DlZu0AJpUtn2YYaRpk7tWVIOr2f+h/9zqlp6TCkfgo17j/GG2bOkUJCA==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
-        "Microsoft.CodeAnalysis.Analyzers.1.1.0.nupkg.sha512",
-        "Microsoft.CodeAnalysis.Analyzers.nuspec",
         "ThirdPartyNotices.rtf",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll",
         "analyzers/dotnet/vb/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/vb/Microsoft.CodeAnalysis.VisualBasic.Analyzers.dll",
+        "microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
+        "microsoft.codeanalysis.analyzers.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
@@ -7731,51 +7731,51 @@
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "ETpW2wFrdAmeKuRCe6Gt83waIFzZlJuVbyZfJWrxqc8R5nXRbgtXxbJ7pZYXMdTdQ6RvU6CaYr7PbqnWjearsA==",
+      "sha512": "nuMIFybGOgW10ip94P6lBXacpSs8sECjJXRWzJ6QJIrwZdkHzBlJ8ieBpwt0Y2bDYlvO0ebPOqMqe1aOG015dg==",
       "type": "package",
       "path": "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
-        "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl.nuspec",
+        "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+        "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/debian.8-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
     "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "6hXhQIq/4Z2xmUqhKgPpUz6SpYJhpkPwqRjnZOTAZIncXJVQ97ltXG8RuAQkHMxQ4jYc/T51Mw5ILi17wK4Ovw==",
+      "sha512": "tyoTtl3hXWzls5n6Hpk+KlYlvYz6QU1wKnWuQoCU3H2cbzgssbKKDbyfrPpdlJwg7Ife55oR/BkejxjU9zfisQ==",
       "type": "package",
       "path": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
-        "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl.nuspec",
+        "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+        "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/fedora.23-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
     "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "+Ccx1C6/1Xf1wNQmLjDaDdZZswFePzITtUmqBdboUNBLBvqWE96n6VDw6WrIph6MW2APO5LScs5X0X7NSBYAFQ==",
+      "sha512": "GCWs7gtpX2K2V5UF8GYzcsUGo5GRhDR633CWVobbxJ4y294GcJTW4gag+ytv17OF6y1eD+r0uPKODc4S2VoWTA==",
       "type": "package",
       "path": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
-        "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl.nuspec",
+        "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+        "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/fedora.24-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
     "runtime.native.System/4.3.0": {
-      "sha512": "0pxf5ZPXCFwZhyEkMzlwSCyLC/NeEN+SQPsAWMCHRoY59QfhXKqdKX3J7dyRr9JWrYkVeXQH0d/N5TUlIYf+EA==",
+      "sha512": "JYE82rdCQH8Ewpj5vapi4RX2mIAe9NoitbQALtMTolL/m63X8xreNHCoVIUyqqOIhgpfdVNKrpoP1I2/c0GVvw==",
       "type": "package",
       "path": "runtime.native.system/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
-        "runtime.native.System.4.3.0.nupkg.sha512",
-        "runtime.native.System.nuspec"
+        "runtime.native.system.4.3.0.nupkg.sha512",
+        "runtime.native.system.nuspec"
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.4.0": {
@@ -7792,146 +7792,146 @@
       ]
     },
     "runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "c34iS49LaQgqbIypdmYf5qgOENSFXU73Ccv7CT01beINdEfGbkckli+b8USBRjZFmMlqx2Vq2jE3HwdCgZ1O9Q==",
+      "sha512": "yHHb77debWPyFIV0KIIjeT7eRQfbMFZ4c3Gi9rD3QUaMpw54OTG2kAXAgbQNbGNxI5cFE7eZMb/Scd3yp/6bUw==",
       "type": "package",
       "path": "runtime.native.system.io.compression/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
-        "runtime.native.System.IO.Compression.4.3.0.nupkg.sha512",
-        "runtime.native.System.IO.Compression.nuspec"
+        "runtime.native.system.io.compression.4.3.0.nupkg.sha512",
+        "runtime.native.system.io.compression.nuspec"
       ]
     },
     "runtime.native.System.Net.Http/4.3.0": {
-      "sha512": "nMxw7DIwtYeGmUgnty+4jACDhC67j/WSwGsKHebZkHNV6xjC8j1hK0FXCQke/7+TRyN/DnXotEzcIec/mr/eOA==",
+      "sha512": "zlHEZkOqQ0yRcCHPEM+w8sSeulV4OHZErWiYft7DE0bmj4l01B4Mer7c47uawCAmOJq97kRfq8jhPefsBMA/Jg==",
       "type": "package",
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
-        "runtime.native.System.Net.Http.4.3.0.nupkg.sha512",
-        "runtime.native.System.Net.Http.nuspec"
+        "runtime.native.system.net.http.4.3.0.nupkg.sha512",
+        "runtime.native.system.net.http.nuspec"
       ]
     },
     "runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "yF55fQaXqzzVZ5c2j07B0S/RrMMlgqWg5kBCTZPKrVnLYqPZTYcGyD4wyYV+wu7jIRju5OM7ys8841AEtoDXGg==",
+      "sha512": "vcbd6w/WuUc0o32ynQWpxVKrDHEb25ToY7O3C0Ih7+HBxhLDjJoH4BUMfIrLMzBn3+7lmsXwbTGR00EXUjGVLg==",
       "type": "package",
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
-        "runtime.native.System.Security.Cryptography.Apple.4.3.0.nupkg.sha512",
-        "runtime.native.System.Security.Cryptography.Apple.nuspec"
+        "runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
+        "runtime.native.system.security.cryptography.apple.nuspec"
       ]
     },
     "runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "X95jmnH4UTFc19E5cg73Z8TyAraFgeurtXGAR6l3qMQoWbHz8tapxBG3VFM2WD/4L/PLHQaQLHyGJJVsbdWaDw==",
+      "sha512": "vqm0FhqJLp3Zd9Mtx1UiNw/ylgE6la4NfxCSJCPoFHtTB3gUnyh2x841xWQ5X2gJHe0rgI8XB4jD8o6Z/0Pw7w==",
       "type": "package",
       "path": "runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
-        "runtime.native.System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
-        "runtime.native.System.Security.Cryptography.OpenSsl.nuspec"
+        "runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+        "runtime.native.system.security.cryptography.openssl.nuspec"
       ]
     },
     "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "0aWB9GtmeSjU/3CdUgViUYBno+BWuFTiR23vXAgB/+0XqMebm9QIehxnoEtlD4t1KlXlV5gK/OT430pM8gNX0Q==",
+      "sha512": "gtrcE7vAUFGVxd7irnSUXP1e9mj+BEjJpKFqidlcdwUlwgAPnXFFXmZFAfivEd8+2wCii0TYUNIgo86M7654Gw==",
       "type": "package",
       "path": "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
-        "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl.nuspec",
+        "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+        "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/opensuse.13.2-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
     "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "TL15dfrOJ2AC3pmBtYqlbmAg5SP76Uy/+t18FxlLH8wT9sFNDrRCy5lhZiTGYV6yAwJIcf5GvT4U9COmLYPRFg==",
+      "sha512": "qxEk9he0/x5kSryF/2ZAfMuxmrf3q1LqEVWzlRcGMH54a6Opaul/38hIKT2JJCjdUu+W0emN7QJgKueR7Y+l1w==",
       "type": "package",
       "path": "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
-        "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl.nuspec",
+        "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+        "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/opensuse.42.1-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "p8QVcSLxBLKF5fRnXPXRP8W0wNC6KGw6SmOKPWezs0qzqB2UWxZPEs1lGN/zo+Ee1GDKgKvmkOmYnzKMPQyo0g==",
+      "sha512": "HFU2wf1JaqpWsXKNLAcpkKQb2clGgfIaMcE0SIU4uWCKAEvFwBw39kxug8gWdAPSvYrBAQqUohsFduIdXxuXbg==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple.4.3.0.nupkg.sha512",
-        "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple.nuspec",
+        "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
+        "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.nuspec",
         "runtimes/osx.10.10-x64/native/System.Security.Cryptography.Native.Apple.dylib"
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "35X2/keZF6ViTt5gMgUttNO8jFh8w/MEeh6KQkS49x0Jmdop3H2WHtGrCONvJK6sz+zjy57UuwefbQlAgGMFzw==",
+      "sha512": "z6EcOwUI+4ytGGjbQYFhExa1y0XByCAGmsz7xoLnBx6Ak13OIwHjXEP8I1jWoMOfqVdD/URpmP8XthOtNhfKnA==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
-        "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl.nuspec",
+        "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+        "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/osx.10.10-x64/native/System.Security.Cryptography.Native.OpenSsl.dylib"
       ]
     },
     "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "pquhUglEcTPJUmGhEGLSqnwlpsP5Qr3WB3NW7D2buSET93ZTSV6vU8suTIUFceb1y2OHJPwebv+nsfVY1+WvCA==",
+      "sha512": "OvBKapk3RAY9Jbukf4VtQAjVfxsDo1ckoWdqcpcRpMhhXEnzj9JeYcZK+hgIsw3cItRsVz9i2WuVsEm2AyoatQ==",
       "type": "package",
       "path": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
-        "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl.nuspec",
+        "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+        "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/rhel.7-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
     "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "UjLVBCP0cf2mJ4xA2Esh822TYxTOAS4vW20Cmk/vDgxlpHARBJ6Wz2okVWUvyDakD5gSNwDe1Mb5aHvdrtKKgg==",
+      "sha512": "aPz82NmRyhsZcoFGncY9iYgVoy7KZpuDvCdQb2fXRqEC/mYJ3xCDVsiMhPObvZizTJ5xHr/RBzBdJK7jSeccig==",
       "type": "package",
       "path": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
-        "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl.nuspec",
+        "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+        "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.14.04-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
     "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "DwPiEF752PDZFIxvQ55kXBDRuZUnMtctBgNB/Nk74HD65lRaElR7xWZm6VftdtOqDtPTLu2lZ8K36wuwTXzbZA==",
+      "sha512": "hn1/uavkBg/DZH3Ow3vDzrsIT45rhc/AkbngHbGhs0Fsj0UI2TiZtlw+9VxLRKUI4yzCUWZUIaDSmg3Xj81QfA==",
       "type": "package",
       "path": "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
-        "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl.nuspec",
+        "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+        "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.04-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
     "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "uB+jl4Q+rmYhfBWAoHvMaG8cUjbf2b78okPffFnaykghP4ooEyVLKduMUMcSBIyqY4j6vOtb2FjlYzrBO+Kofw==",
+      "sha512": "oe1bVCBqoS/DClgqPLDX6mASWDVhQQxhcu8YSeyVHmq/UULhMG0F4Bx/wkHIyByhXUkQcNm67KzGajG5Se3ihg==",
       "type": "package",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
-        "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl.nuspec",
+        "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+        "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
@@ -7978,12 +7978,10 @@
       ]
     },
     "System.AppContext/4.3.0": {
-      "sha512": "W1MEViTkLIqO3PTfTNOBNQW9sM+jP3hIrVnRs75lURmhpkTT1sSsli0kJqbBIgHaJTaSR/h9S4ZvyXCBUOQkTQ==",
+      "sha512": "ZSsFjxyHT6MWsv8GWMyphKll9LH9DW3yr+TYToYBiQ0bhOK9gn5siqyW21TwBq7/eQvFcJiHUhwqmoF1pZzipg==",
       "type": "package",
       "path": "system.appcontext/4.3.0",
       "files": [
-        "System.AppContext.4.3.0.nupkg.sha512",
-        "System.AppContext.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8027,7 +8025,9 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.AppContext.dll"
+        "runtimes/aot/lib/netcore50/System.AppContext.dll",
+        "system.appcontext.4.3.0.nupkg.sha512",
+        "system.appcontext.nuspec"
       ]
     },
     "System.Buffers/4.5.0": {
@@ -8059,12 +8059,10 @@
       ]
     },
     "System.Collections/4.3.0": {
-      "sha512": "QW4BFxbpdI+nw38JPBVFuzntiBb7ttSzTbS2xp3JjGoQPNXY7imwvfE2JT3J6ZDI0gi6SXMtlfGCblTFMjBR7A==",
+      "sha512": "MIyBzXhhOb0WwzWjSh38RppSh3UZdXkltyzSyGHIMkXQm5Uzw82gWkLSXSsDSJ63ElmEO4YGXgMH7iwRN7GDNw==",
       "type": "package",
       "path": "system.collections/4.3.0",
       "files": [
-        "System.Collections.4.3.0.nupkg.sha512",
-        "System.Collections.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8121,16 +8119,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.collections.4.3.0.nupkg.sha512",
+        "system.collections.nuspec"
       ]
     },
     "System.Collections.Concurrent/4.3.0": {
-      "sha512": "PjYFNHxl0kLt2I+YuJL3KWELCpbQoDZsGtan1+8jW2I2MxNIzGFs48FHoqF632uw6gRD4ak+i2fRGCW5PYrTng==",
+      "sha512": "FKl20dMRckxqbxFEbJvvlQRPFwo7fwOF1gnlJFtqXS1N4fxnxaodG5GoprxIk80qby6J5tcgYvhvFrsxhRkzsw==",
       "type": "package",
       "path": "system.collections.concurrent/4.3.0",
       "files": [
-        "System.Collections.Concurrent.4.3.0.nupkg.sha512",
-        "System.Collections.Concurrent.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8187,7 +8185,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.collections.concurrent.4.3.0.nupkg.sha512",
+        "system.collections.concurrent.nuspec"
       ]
     },
     "System.Collections.Immutable/1.5.0": {
@@ -8213,12 +8213,10 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
+      "sha512": "mv1GNM1zHB5ua8ntK5w+0KNT5fe56ft18uByqscEIlDZLE0/wdZSYUlW37G3wrWFjZFGdh9TyPo1YgBOymEtSg==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
-        "System.Collections.NonGeneric.4.3.0.nupkg.sha512",
-        "System.Collections.NonGeneric.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8246,16 +8244,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.collections.nongeneric.4.3.0.nupkg.sha512",
+        "system.collections.nongeneric.nuspec"
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "sha512": "sotZpUmC+4eO0C9BGNcpEzG63idFzmYvoY5JlQXsnTgz0tZYwpv9cOLmofjvlTIUE0wSir8ixx+ILzTxAj75xA==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
-        "System.Collections.Specialized.4.3.0.nupkg.sha512",
-        "System.Collections.Specialized.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8283,16 +8281,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.collections.specialized.4.3.0.nupkg.sha512",
+        "system.collections.specialized.nuspec"
       ]
     },
     "System.ComponentModel/4.3.0": {
-      "sha512": "ue5thQUeI+jZ7As2jeYQODgel4Qhv4AgwmIcVhEJtg18sfHlPCa2n7JgvduyWgNdHqAfKNDHpzcLZjElNFD4dg==",
+      "sha512": "dI1d5i9VilPNJ3i6lhgX6l9WOlYV4YJoSspdlmj2jxiLR08s7bp+/osDf4raXwoZTwwgUq4R3sZ+fvSIK6LFoQ==",
       "type": "package",
       "path": "system.componentmodel/4.3.0",
       "files": [
-        "System.ComponentModel.4.3.0.nupkg.sha512",
-        "System.ComponentModel.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8340,7 +8338,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.4.3.0.nupkg.sha512",
+        "system.componentmodel.nuspec"
       ]
     },
     "System.ComponentModel.Annotations/4.5.0": {
@@ -8432,12 +8432,10 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+      "sha512": "SqIh9Ly7EjqCT/v+xQ/K/kn1XbdyA5J2HlIfNVitkrcXW5qyCNTbz8c5T8A9FTUCL2OsJo0IYwkNDIbKyKO6Dw==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
-        "System.ComponentModel.Primitives.4.3.0.nupkg.sha512",
-        "System.ComponentModel.Primitives.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8465,16 +8463,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.primitives.4.3.0.nupkg.sha512",
+        "system.componentmodel.primitives.nuspec"
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
+      "sha512": "G1BWDqVW2JR5MCUTnEJ/TopLPHrVEDcVo55sn5imqK1BzgyfmtkSPrW6XYntSXlImzjimtEh8bW5UYlTe0kggg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
-        "System.ComponentModel.TypeConverter.4.3.0.nupkg.sha512",
-        "System.ComponentModel.TypeConverter.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8516,7 +8514,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
+        "system.componentmodel.typeconverter.nuspec"
       ]
     },
     "System.Composition/1.0.31": {
@@ -8596,12 +8596,10 @@
       ]
     },
     "System.Console/4.3.0": {
-      "sha512": "g1869hM41GDlJsgC8/9nYGj14+6QO6CLuEF+wrlyuz3Vb6jYC6DHCoLPLHka6TfA2WZod0CT2iCQf10i3RGESw==",
+      "sha512": "qDds9hp76tmUFRY8S7CYoocclkj7xJyx0jzNDnWquGljp3Bfjw/STlh7zZESi7vxN7bLKtSOOwakZQAUj3lSMQ==",
       "type": "package",
       "path": "system.console/4.3.0",
       "files": [
-        "System.Console.4.3.0.nupkg.sha512",
-        "System.Console.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8628,7 +8626,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.console.4.3.0.nupkg.sha512",
+        "system.console.nuspec"
       ]
     },
     "System.Data.Common/4.3.0": {
@@ -8754,12 +8754,10 @@
       ]
     },
     "System.Diagnostics.Contracts/4.3.0": {
-      "sha512": "eelRRbnm+OloiQvp9CXS0ixjNQldjjkHO4iIkR5XH2VIP8sUB/SIpa1TdUW6/+HDcQ+MlhP3pNa1u5SbzYuWGA==",
+      "sha512": "5XCfS5Dq7nxacKPjhHCYexioUW2oxoz5awHiapR1GX175KYRC+5dzTNvVy5Y1q+3XBPwxB5bbkK+yoshpPlopA==",
       "type": "package",
       "path": "system.diagnostics.contracts/4.3.0",
       "files": [
-        "System.Diagnostics.Contracts.4.3.0.nupkg.sha512",
-        "System.Diagnostics.Contracts.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8808,16 +8806,16 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.Diagnostics.Contracts.dll"
+        "runtimes/aot/lib/netcore50/System.Diagnostics.Contracts.dll",
+        "system.diagnostics.contracts.4.3.0.nupkg.sha512",
+        "system.diagnostics.contracts.nuspec"
       ]
     },
     "System.Diagnostics.Debug/4.3.0": {
-      "sha512": "tdzSmJSqYybHJ3XbfJlEAtVxwdzQI8irFSHm1QjmMpiWCYnn42gw0/wnD2GU2qddruk6d0WD9b+RROELaLPMcA==",
+      "sha512": "KreeOr5I3DJEmZLBww3MDml6jPICQVetoIIGDxjMcIVENQNZW1wolAU9IpLmdj3DmpNh2i8sAk0jTDmwfbWalw==",
       "type": "package",
       "path": "system.diagnostics.debug/4.3.0",
       "files": [
-        "System.Diagnostics.Debug.4.3.0.nupkg.sha512",
-        "System.Diagnostics.Debug.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8874,7 +8872,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.diagnostics.debug.4.3.0.nupkg.sha512",
+        "system.diagnostics.debug.nuspec"
       ]
     },
     "System.Diagnostics.DiagnosticSource/4.5.0": {
@@ -8942,7 +8942,7 @@
       ]
     },
     "System.Diagnostics.StackTrace/4.3.0": {
-      "sha512": "nV12tiJFbdINKGvDlxGH84wviOIOQ8Tb4kEAgvFlZAw/Qa3ke97pykVR0lxMKF7tT4wWJ59Y9nN3gK5hiximcQ==",
+      "sha512": "VRLnr7AfmrSGpNENixDiDfemVnhUThvpliHehF+JXwEIc+bXF38zgTflgs73gX+x703Vwl2t07SS2DXS3h2eVQ==",
       "type": "package",
       "path": "system.diagnostics.stacktrace/4.3.0",
       "files": [
@@ -8980,12 +8980,10 @@
       ]
     },
     "System.Diagnostics.Tools/4.3.0": {
-      "sha512": "YkCtPqP4nNBa5PS4rKpIQUZnwRCDk2bPKN14v7IGatxZv2VnXT9kCgbbBiKwwWX51buWft8ImRdohHaV/TbwVw==",
+      "sha512": "CWxe+LZpkT+Pdjueo2oY5GJEMvR3e7NXzOzstj/SNIVd50J6cSt9Z0lN6GeFrDgC7EbW0SfhK5Wro0aW10PyKQ==",
       "type": "package",
       "path": "system.diagnostics.tools/4.3.0",
       "files": [
-        "System.Diagnostics.Tools.4.3.0.nupkg.sha512",
-        "System.Diagnostics.Tools.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9031,16 +9029,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.diagnostics.tools.4.3.0.nupkg.sha512",
+        "system.diagnostics.tools.nuspec"
       ]
     },
     "System.Diagnostics.Tracing/4.3.0": {
-      "sha512": "9z+ykyd/S691YKkiKiDWqkFLz235pC0WrHXFJnwiDNV3Y04F7wXIaVKgT1ODsx/BzOPz7OSTrd3jSpjWj85XsQ==",
+      "sha512": "Hp4Bl2NAnTeXRagiV4EVJWHX/5uZe8UvgkzFyM+QT9SGJVWnIHjhJbIc5UvF0PdTk6ljNRu7aXutmeHyQLfKCg==",
       "type": "package",
       "path": "system.diagnostics.tracing/4.3.0",
       "files": [
-        "System.Diagnostics.Tracing.4.3.0.nupkg.sha512",
-        "System.Diagnostics.Tracing.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9119,7 +9117,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.diagnostics.tracing.4.3.0.nupkg.sha512",
+        "system.diagnostics.tracing.nuspec"
       ]
     },
     "System.Drawing.Common/4.5.0": {
@@ -9155,12 +9155,10 @@
       ]
     },
     "System.Dynamic.Runtime/4.3.0": {
-      "sha512": "yxsS0rrsL3oCTG+x/lqNt9puRglUlZEJ69HfYzZqTxrP+AiHRVJGdrlIqt6EU/a4O4SbwRNEThtUoOrW+QLOkQ==",
+      "sha512": "7de9Du9o6HmVMSXKpjk6i1s5cKm1KVsjjSqTIx8tStOF0n8DUc7J15AFQ6MqBnV+PHCTfaHKzYariwDBCa399A==",
       "type": "package",
       "path": "system.dynamic.runtime/4.3.0",
       "files": [
-        "System.Dynamic.Runtime.4.3.0.nupkg.sha512",
-        "System.Dynamic.Runtime.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9220,16 +9218,16 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.Dynamic.Runtime.dll"
+        "runtimes/aot/lib/netcore50/System.Dynamic.Runtime.dll",
+        "system.dynamic.runtime.4.3.0.nupkg.sha512",
+        "system.dynamic.runtime.nuspec"
       ]
     },
     "System.Globalization/4.3.0": {
-      "sha512": "MFdwk0a9akrzEo2m8BI5pl1m51hmBg7hmUz736XlRv/04S6whNmMdS49hs4W52pEYCRO2PSiYqk2aczQtYuO5g==",
+      "sha512": "r6tLfxrKOhb5+kv8mbdgm2PH0JW/HTwI3453KNruN17EUQiYjrvcpbRCLnw1Q7nozsq2+3uvp7BDjCvuYmqqUQ==",
       "type": "package",
       "path": "system.globalization/4.3.0",
       "files": [
-        "System.Globalization.4.3.0.nupkg.sha512",
-        "System.Globalization.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9286,16 +9284,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.globalization.4.3.0.nupkg.sha512",
+        "system.globalization.nuspec"
       ]
     },
     "System.Globalization.Calendars/4.3.0": {
-      "sha512": "EIecw4SCYxhTMZvD/SzNwFw2gly3o0mi8ZRHdLUvHKKaz1cNlYFe+7mUwaC6TyC5bu3zeaIriLi7mfbFD4oEsg==",
+      "sha512": "P6c4qf++l7nPIufxJeRm57ObyZW3qoENl9bwD/rgx3P908pQ0RpzY7DSX+3GvinczkRmTq4nKk/lksbGlS68Ew==",
       "type": "package",
       "path": "system.globalization.calendars/4.3.0",
       "files": [
-        "System.Globalization.Calendars.4.3.0.nupkg.sha512",
-        "System.Globalization.Calendars.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9322,16 +9320,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.globalization.calendars.4.3.0.nupkg.sha512",
+        "system.globalization.calendars.nuspec"
       ]
     },
     "System.Globalization.Extensions/4.3.0": {
-      "sha512": "5jMZ+0ZoODGtLc2/kdz2Rh2ZJJot5cKs8t6NX0z5XgsbhKBOJojIx3/HWjIMt61VE0cQAnuGeQDDKaONvy4rFw==",
+      "sha512": "H35JykeH/TExMwlIU5TyX9EbG8ysrP1rqQaL1fx5UOu8gO0o/v7IVzsKkkebzvyJdLgAHI64ezm0ah9qBhS76A==",
       "type": "package",
       "path": "system.globalization.extensions/4.3.0",
       "files": [
-        "System.Globalization.Extensions.4.3.0.nupkg.sha512",
-        "System.Globalization.Extensions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9361,7 +9359,9 @@
         "ref/xamarinwatchos10/_._",
         "runtimes/unix/lib/netstandard1.3/System.Globalization.Extensions.dll",
         "runtimes/win/lib/net46/System.Globalization.Extensions.dll",
-        "runtimes/win/lib/netstandard1.3/System.Globalization.Extensions.dll"
+        "runtimes/win/lib/netstandard1.3/System.Globalization.Extensions.dll",
+        "system.globalization.extensions.4.3.0.nupkg.sha512",
+        "system.globalization.extensions.nuspec"
       ]
     },
     "System.IdentityModel.Tokens.Jwt/5.2.0": {
@@ -9397,12 +9397,10 @@
       ]
     },
     "System.IO/4.3.0": {
-      "sha512": "9ukyPi29BM6br6V1lEOQXmVf4cxIUt7a9RXe7KNhdlEthhgeCxHScjrU8UtpVwogMh9Dmbg5yHPt11Pd/b+x1Q==",
+      "sha512": "0EfO1uzOqpTRQ5/o0DQ3EKWhcuT9UiyHdIXCxbCPij7eIU/yg+qa3kMIgqMFC98CAbXiEB4fJKqMeLrnE2QQAg==",
       "type": "package",
       "path": "system.io/4.3.0",
       "files": [
-        "System.IO.4.3.0.nupkg.sha512",
-        "System.IO.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9472,16 +9470,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.io.4.3.0.nupkg.sha512",
+        "system.io.nuspec"
       ]
     },
     "System.IO.Compression/4.3.0": {
-      "sha512": "6OM3jLULOrGGMbsKg6Xzd/9EBrwmj3HELFwqHBptt/IIRn5ue4OyPWXTvZa5XBaKASd9KVhCn4ji6WFzwQTWOw==",
+      "sha512": "y3+utAOKJY9VYqvCkc+ZiIonF8uZ/j+itUDw3axgvgGKODQUbHxufBv91q/Oup0EGCwiIy7NoR7+Iupw2WWR4w==",
       "type": "package",
       "path": "system.io.compression/4.3.0",
       "files": [
-        "System.IO.Compression.4.3.0.nupkg.sha512",
-        "System.IO.Compression.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9541,16 +9539,16 @@
         "ref/xamarinwatchos10/_._",
         "runtimes/unix/lib/netstandard1.3/System.IO.Compression.dll",
         "runtimes/win/lib/net46/System.IO.Compression.dll",
-        "runtimes/win/lib/netstandard1.3/System.IO.Compression.dll"
+        "runtimes/win/lib/netstandard1.3/System.IO.Compression.dll",
+        "system.io.compression.4.3.0.nupkg.sha512",
+        "system.io.compression.nuspec"
       ]
     },
     "System.IO.FileSystem/4.3.0": {
-      "sha512": "Nhcrq6g/GB2PDS4yMNrfqUJiaHv9jmKZEKzyWAi/LQVQn36LirMAbv1jt/Q2wMZ0Qd/VXNyG4SXnZD66Ecf3ew==",
+      "sha512": "oliseFkCl7R920zypsiFQd/AZAo/kzDVd2uicv2yOupg5cJu4bDBF9FMoETzaq31SYjri69z8KZ3QnHY86+7jA==",
       "type": "package",
       "path": "system.io.filesystem/4.3.0",
       "files": [
-        "System.IO.FileSystem.4.3.0.nupkg.sha512",
-        "System.IO.FileSystem.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9577,16 +9575,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.io.filesystem.4.3.0.nupkg.sha512",
+        "system.io.filesystem.nuspec"
       ]
     },
     "System.IO.FileSystem.Primitives/4.3.0": {
-      "sha512": "mVb68pGnHO+Vp/RGzuSZPnWUviflkq5p97Tr6G45SstZLTuqm9Db2BywrxbE56OYDtG75uMbhicDjCpvJnpx7w==",
+      "sha512": "ATVnlqzZDWHZdt3joNX59gcj+Cq8lfrMllFKTuPtbwKLED/zDQjk38bOhDyp9m1J0kAMhCk4MOG3OId3mM3kpw==",
       "type": "package",
       "path": "system.io.filesystem.primitives/4.3.0",
       "files": [
-        "System.IO.FileSystem.Primitives.4.3.0.nupkg.sha512",
-        "System.IO.FileSystem.Primitives.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9614,7 +9612,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+        "system.io.filesystem.primitives.nuspec"
       ]
     },
     "System.IO.Pipelines/4.5.0": {
@@ -9639,12 +9639,10 @@
       ]
     },
     "System.Linq/4.3.0": {
-      "sha512": "0zWFMTVIKnniU8IpiTi+X75HUK8R1MHYHAYOp016SUnJtxVooNcwtsb6URD4WvAMz0QiNeK0t0nDaRWtQc2x3g==",
+      "sha512": "ff42c6jZJBlU/lmgibNdw/YzaxTB7oFQAHeano+8xNTgybvNSkZ/d+vALi70ZWfXQrLVu/JLj3aZAzIS3qiEJA==",
       "type": "package",
       "path": "system.linq/4.3.0",
       "files": [
-        "System.Linq.4.3.0.nupkg.sha512",
-        "System.Linq.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9705,16 +9703,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.linq.4.3.0.nupkg.sha512",
+        "system.linq.nuspec"
       ]
     },
     "System.Linq.Expressions/4.3.0": {
-      "sha512": "ngotWvy5K6NyvI6z7+fH1hQw2Q1pnM6GMxtB2uReTEmfOGE5Z3iuaNmnOIHJWYZN9R26iL+sdk+KrF37SslSyQ==",
+      "sha512": "twiGQdw80xRJlrDVhDYRBQvG9qs7fNHgi9UDhBhSoj1WJA46QavaEIlbSQs1jpYKnsum6fg5LF2ZDs4gn9RHGA==",
       "type": "package",
       "path": "system.linq.expressions/4.3.0",
       "files": [
-        "System.Linq.Expressions.4.3.0.nupkg.sha512",
-        "System.Linq.Expressions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9787,16 +9785,16 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll"
+        "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll",
+        "system.linq.expressions.4.3.0.nupkg.sha512",
+        "system.linq.expressions.nuspec"
       ]
     },
     "System.Linq.Parallel/4.3.0": {
-      "sha512": "YWDKFpVqZDjObJxmdYnws7dfSZK5MMhs3dMyoyaki78ty+c1aVreqjxSqMVnureW9Aqh0QTq0i98fiuWnCuDsA==",
+      "sha512": "p5Gxe9QVrqoagIELbeacnvoF/zAWbhM2sgJ4EB8ixHoPizrzxLiJCL6juheZIa3qNKfH7yHqxDOKv5i2FfYvIA==",
       "type": "package",
       "path": "system.linq.parallel/4.3.0",
       "files": [
-        "System.Linq.Parallel.4.3.0.nupkg.sha512",
-        "System.Linq.Parallel.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9842,16 +9840,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.linq.parallel.4.3.0.nupkg.sha512",
+        "system.linq.parallel.nuspec"
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "qmhIGyUrVy0aOzQ3Q2P+dB4KmiIpt1D1jA2RRwaRmAJg2CACS9aCBLoD3fCPntTNNlQIv8diZHpaXqihvdQ5Zg==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
-        "System.Linq.Queryable.4.0.1.nupkg.sha512",
-        "System.Linq.Queryable.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/monoandroid10/_._",
@@ -9899,7 +9897,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.linq.queryable.4.0.1.nupkg.sha512",
+        "system.linq.queryable.nuspec"
       ]
     },
     "System.Memory/4.5.1": {
@@ -9927,12 +9927,10 @@
       ]
     },
     "System.Net.Http/4.3.0": {
-      "sha512": "lp79Y2HvU+PWvL1tE9nNlQ3powUK4z730ndaJzknT69l5ldlQILPqGVG/C2oda0V+JnkohJSUK94fINMhlnvdw==",
+      "sha512": "lolfWdv6LlVACPdHxUYNmXEN1AZXfD3jC7O1zSWF7DdxB7D4KWuxdG3SzM/EXuC3UD3kZSSsaO8kwRur9DLdCw==",
       "type": "package",
       "path": "system.net.http/4.3.0",
       "files": [
-        "System.Net.Http.4.3.0.nupkg.sha512",
-        "System.Net.Http.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/Xamarinmac20/_._",
@@ -10003,16 +10001,16 @@
         "runtimes/unix/lib/netstandard1.6/System.Net.Http.dll",
         "runtimes/win/lib/net46/System.Net.Http.dll",
         "runtimes/win/lib/netcore50/System.Net.Http.dll",
-        "runtimes/win/lib/netstandard1.3/System.Net.Http.dll"
+        "runtimes/win/lib/netstandard1.3/System.Net.Http.dll",
+        "system.net.http.4.3.0.nupkg.sha512",
+        "system.net.http.nuspec"
       ]
     },
     "System.Net.Primitives/4.3.0": {
-      "sha512": "ACoIwcsNQNWTGmEGNkju3NEO+YfYi+8p7QNF1MijbHHxV3B/oM/jMj6nXNGUlbtDZ4IhtjEo//Gb1Q10Pk9bPg==",
+      "sha512": "ZmXs8J7PetZv0LHpF7IuaRlVk0NLv1SuWnI6N4v0h8HtN0q3+WCio1seRn76hREiZ+kdmS9d2QeH6oAegh2E5A==",
       "type": "package",
       "path": "system.net.primitives/4.3.0",
       "files": [
-        "System.Net.Primitives.4.3.0.nupkg.sha512",
-        "System.Net.Primitives.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10080,7 +10078,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.net.primitives.4.3.0.nupkg.sha512",
+        "system.net.primitives.nuspec"
       ]
     },
     "System.Net.WebSockets.WebSocketProtocol/4.5.1": {
@@ -10147,12 +10147,10 @@
       ]
     },
     "System.ObjectModel/4.3.0": {
-      "sha512": "QoyJuK26JjUBNr7au/hVRPB+u9NSCh33LRMoBLZeYCs4FHjUcy6fhTvFSFdbSI22eH+KGm5EmKoPVYOJM+U9sw==",
+      "sha512": "LWX3PUaz4y6ATXwfpnSIneUYqceUEd4hFUYdrwqMkuefCwBDht93XS2KjKMHYsviAg4KntYkDBXwxoKG49ZMjg==",
       "type": "package",
       "path": "system.objectmodel/4.3.0",
       "files": [
-        "System.ObjectModel.4.3.0.nupkg.sha512",
-        "System.ObjectModel.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10211,7 +10209,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.objectmodel.4.3.0.nupkg.sha512",
+        "system.objectmodel.nuspec"
       ]
     },
     "System.Private.DataContractSerialization/4.3.0": {
@@ -10229,12 +10229,10 @@
       ]
     },
     "System.Reflection/4.3.0": {
-      "sha512": "7JZ3aeVRKUrdRrv4LvoomuAc/pCaWwKPBV6olYKynu9Zr5jJMPN33mnOzvPrCWIRVvr6jk6h9Y6kVyAyDabVyg==",
+      "sha512": "snP7xIJFzgmcFyYitUDoN8rIA3sAoe7p2YGvN4mv9Vj9KTxvleEzvI/30qJcXGggI8p8TThqMgZi8UvTpJAujQ==",
       "type": "package",
       "path": "system.reflection/4.3.0",
       "files": [
-        "System.Reflection.4.3.0.nupkg.sha512",
-        "System.Reflection.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10304,16 +10302,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.reflection.4.3.0.nupkg.sha512",
+        "system.reflection.nuspec"
       ]
     },
     "System.Reflection.Emit/4.3.0": {
-      "sha512": "VMwu+E9+EJZtGgW3vdCXoR3vdqQnrvJkHB8nF8ZkYHXTHxd6jWYHPWDiEW2XYpJ7yldIzwjI0lTDDM9D3Iy9Zw==",
+      "sha512": "24YDf+FcqGj0PqNkcZdQgoE0v64Gh3goPmN9OhR3EQYYLGlrRYkS7DwyEr9dJv4Ie72RrIYl/W52Bqhvk7exJw==",
       "type": "package",
       "path": "system.reflection.emit/4.3.0",
       "files": [
-        "System.Reflection.Emit.4.3.0.nupkg.sha512",
-        "System.Reflection.Emit.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10338,16 +10336,16 @@
         "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
-        "ref/xamarinmac20/_._"
+        "ref/xamarinmac20/_._",
+        "system.reflection.emit.4.3.0.nupkg.sha512",
+        "system.reflection.emit.nuspec"
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
-      "sha512": "TyKesSKkYDxrQp1NAE0sAtZ/YjTiBgX2EzZFfFLwToLtyZXqS2fobLWJOxUDAQuiU84ELXUwm2fUi9j4ulfrJQ==",
+      "sha512": "j/PmA0UQelhrUq3Y0X9Zr10d1Oa1Kad6T9THt0jAC2VLwBtE3CxNF6FmI+GhTztj8+NgsOJDzc0R2IQS4gIDuQ==",
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
-        "System.Reflection.Emit.ILGeneration.4.3.0.nupkg.sha512",
-        "System.Reflection.Emit.ILGeneration.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10381,16 +10379,16 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/_._"
+        "runtimes/aot/lib/netcore50/_._",
+        "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+        "system.reflection.emit.ilgeneration.nuspec"
       ]
     },
     "System.Reflection.Emit.Lightweight/4.3.0": {
-      "sha512": "qbywZUx3EcOQ2VDBYZ1Be0dHF+EI9jgPfUYdbuto9c73ZVDQI/DyiaWIJgEjJxLxlX2kKVY6BK4E+t3ova9yiQ==",
+      "sha512": "gh4rV6e0pAYSGA/EpTTEmfImP53RJ2caAZq1NxzSEkxStfC7N6yqA+KYTZiLctLJzR4MrM/adgbAyHpasMvSvQ==",
       "type": "package",
       "path": "system.reflection.emit.lightweight/4.3.0",
       "files": [
-        "System.Reflection.Emit.Lightweight.4.3.0.nupkg.sha512",
-        "System.Reflection.Emit.Lightweight.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10424,16 +10422,16 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/_._"
+        "runtimes/aot/lib/netcore50/_._",
+        "system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+        "system.reflection.emit.lightweight.nuspec"
       ]
     },
     "System.Reflection.Extensions/4.3.0": {
-      "sha512": "ULZYqqLzctaSDCgRvKR00Y8zny39ExjPqKc9x+ZqTDadBb5FoZFd93X2Ecwve9JkBgNPCh6BlTmBTweHkQuFqg==",
+      "sha512": "xQE+lUiTcSlJnQ6oH+3b+AFSM0NJk1gpfHSXVfSgYbbOBItrF64mfHGodHu+kua4u3fPhN5h1zCgxz7l4bsNtw==",
       "type": "package",
       "path": "system.reflection.extensions/4.3.0",
       "files": [
-        "System.Reflection.Extensions.4.3.0.nupkg.sha512",
-        "System.Reflection.Extensions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10479,7 +10477,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.reflection.extensions.4.3.0.nupkg.sha512",
+        "system.reflection.extensions.nuspec"
       ]
     },
     "System.Reflection.Metadata/1.6.0": {
@@ -10503,12 +10503,10 @@
       ]
     },
     "System.Reflection.Primitives/4.3.0": {
-      "sha512": "Sn8Mw98Exeteg/CekXgyWJSLDz9LpGOR+ZX+K0Q709TQV2vKRAKgysraL07jFSLIDA3sLM9Txhp6B3ESdUu9Iw==",
+      "sha512": "2zTO200qG4k4RBWuX2WzXlpq1LVhMIg1FfuwsjtfT/5I5kptP7sv1/DT4MlrWNfMgZ7TzsjDnTBopY6SMptxYg==",
       "type": "package",
       "path": "system.reflection.primitives/4.3.0",
       "files": [
-        "System.Reflection.Primitives.4.3.0.nupkg.sha512",
-        "System.Reflection.Primitives.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10554,16 +10552,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.reflection.primitives.4.3.0.nupkg.sha512",
+        "system.reflection.primitives.nuspec"
       ]
     },
     "System.Reflection.TypeExtensions/4.3.0": {
-      "sha512": "YOM8D+YBRV9cY06gYNa7JRbAkPWOjvm0c1mKrtoKaOZnXlm4vTg9m3ogHZjorVijOMp2KdSzXS8L43k/y6JQTA==",
+      "sha512": "WzzE7GIgVUJ/5K6B7Ra43sroYptXDhm+z6fS/BHTIUIc3gPwKxaQRA1/kDRKnHFrpNK0UEsDVP73I/kcNUkHFA==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.3.0",
       "files": [
-        "System.Reflection.TypeExtensions.4.3.0.nupkg.sha512",
-        "System.Reflection.TypeExtensions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10606,16 +10604,16 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.Reflection.TypeExtensions.dll"
+        "runtimes/aot/lib/netcore50/System.Reflection.TypeExtensions.dll",
+        "system.reflection.typeextensions.4.3.0.nupkg.sha512",
+        "system.reflection.typeextensions.nuspec"
       ]
     },
     "System.Resources.ResourceManager/4.3.0": {
-      "sha512": "MsP5UERvDi54IKEc5UQ7X31TaPG0qv2uL38tueAEQpXBQrAeAYduVg/5vpOO7b5Sh3sjiBH4luXfiIjV/r7TBw==",
+      "sha512": "0M+7OuuqYh1/6aGQdyRYRAjQfN1tMhSmbx67bXO8C8bfGbC0s4Mwc49k6LVofXZYEEAGVZlO1nYaubfSHifHoQ==",
       "type": "package",
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
-        "System.Resources.ResourceManager.4.3.0.nupkg.sha512",
-        "System.Resources.ResourceManager.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10661,16 +10659,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.resources.resourcemanager.4.3.0.nupkg.sha512",
+        "system.resources.resourcemanager.nuspec"
       ]
     },
     "System.Runtime/4.3.0": {
-      "sha512": "+z9eixi5Ks2WQzerIYzmg4hkOhtiyomI/twQ6YrPW4pI11XCPHoekmVHoBdlfFGZDby3qinao5LZ1+yEtShkfA==",
+      "sha512": "+AzOjyfVuWegwXu/0MBKS1lnBPNzCoRDUFDNILqyMmm2VbzoKFvq2oa8P0EKtS3w1/SQLg2+iCYchXSo0KS6Wg==",
       "type": "package",
       "path": "system.runtime/4.3.0",
       "files": [
-        "System.Runtime.4.3.0.nupkg.sha512",
-        "System.Runtime.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10751,7 +10749,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.4.3.0.nupkg.sha512",
+        "system.runtime.nuspec"
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
@@ -10779,12 +10779,10 @@
       ]
     },
     "System.Runtime.Extensions/4.3.0": {
-      "sha512": "qzn4wcXPLVbjBfiPcT7M3ejrXhd2Rwv8KMiY8F3nLts7f5MLNF8OHUuy/cM09/mrC87pO312iW5jlMvuj8V8+w==",
+      "sha512": "DyXyhsRujOI20fgcJRrzvu/Dq8vBSlgVAV5+Ybt/qiytJEkTvrIS/LHi4HdRLzXyuYDquxkUQI8wa9CHFfK5PQ==",
       "type": "package",
       "path": "system.runtime.extensions/4.3.0",
       "files": [
-        "System.Runtime.Extensions.4.3.0.nupkg.sha512",
-        "System.Runtime.Extensions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10854,16 +10852,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.extensions.4.3.0.nupkg.sha512",
+        "system.runtime.extensions.nuspec"
       ]
     },
     "System.Runtime.Handles/4.3.0": {
-      "sha512": "5rn7DSpdLz3r+TsXvssrcC7YbqhwtvlmIJjiLJCLQ6FdK5hWrEQojyObIG0mDTVizDoxW5zQwv9fu4GqUVNLQA==",
+      "sha512": "nDbFYJdwn3jm3L6t/EFQKVjU53AYePQjZyOpCZtFZWOucdqGgoZtgAtXaVIvP6XGS4BY1hJ+mSlU9pGVu2Sbcw==",
       "type": "package",
       "path": "system.runtime.handles/4.3.0",
       "files": [
-        "System.Runtime.Handles.4.3.0.nupkg.sha512",
-        "System.Runtime.Handles.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10890,16 +10888,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.handles.4.3.0.nupkg.sha512",
+        "system.runtime.handles.nuspec"
       ]
     },
     "System.Runtime.InteropServices/4.3.0": {
-      "sha512": "jrCkO1fcqpdwpk2qhSVD1CChVi4OWeNzfpFtR1f8/3zXLYwBNfeTQgrowz3SXeGl3m9Z1NmVvG/nysSx+nK1+A==",
+      "sha512": "eP5GL2iiC70KleTcJ6hFkPUMGB2zqm1MCXzUymg1HRnh1bSKu82lqTySr0YfT0oc1s+yNeFLERto1i+7OWC+vw==",
       "type": "package",
       "path": "system.runtime.interopservices/4.3.0",
       "files": [
-        "System.Runtime.InteropServices.4.3.0.nupkg.sha512",
-        "System.Runtime.InteropServices.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10981,16 +10979,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.interopservices.4.3.0.nupkg.sha512",
+        "system.runtime.interopservices.nuspec"
       ]
     },
     "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
-      "sha512": "gvg4mJJOzFIPc3Z96O2fS5pyNtVt2/e5EnW1tP+3TbuItiINpvYJ02qXjT7A0V1sgoAJ9IjEouggAK0LkgG8Jg==",
+      "sha512": "tR0699QaPHboNYDTDumAWBdvWxt2qxN3ucoG74G80gbgh0mIMmWJ/oL6WPs1esK+m6xxZQSN/exngAUsFH5o/A==",
       "type": "package",
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "files": [
-        "System.Runtime.InteropServices.RuntimeInformation.4.3.0.nupkg.sha512",
-        "System.Runtime.InteropServices.RuntimeInformation.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11014,16 +11012,16 @@
         "runtimes/unix/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
         "runtimes/win/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll",
         "runtimes/win/lib/netcore50/System.Runtime.InteropServices.RuntimeInformation.dll",
-        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll"
+        "runtimes/win/lib/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
+        "system.runtime.interopservices.runtimeinformation.nuspec"
       ]
     },
     "System.Runtime.Numerics/4.3.0": {
-      "sha512": "ePNrVPhOl00argeusnl81w/hAZahA4wLqpyBjo3U6RlpQaYwUUZB+4SYQxQ/jM8NEY849NEGomLX+tlRJbxE7g==",
+      "sha512": "WvuRXqmBFSHZeWLBo/e8DlFmPdJQWcnKfnXuN2Hdhb6nFIifbLgmhb+zArA6WPdkyaDH6KIBB7lUe7KhV75QiA==",
       "type": "package",
       "path": "system.runtime.numerics/4.3.0",
       "files": [
-        "System.Runtime.Numerics.4.3.0.nupkg.sha512",
-        "System.Runtime.Numerics.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11069,16 +11067,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.numerics.4.3.0.nupkg.sha512",
+        "system.runtime.numerics.nuspec"
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "sha512": "SJyZ8xE7PZoXTPlUu1tXDo7LMXUmHE/PP7uqO7YAlZ70N/mm/HfbbdQCAOP2Gk97nAiNsgLIFpBIoa2OwZg0lQ==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
-        "System.Runtime.Serialization.Primitives.4.3.0.nupkg.sha512",
-        "System.Runtime.Serialization.Primitives.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11140,7 +11138,9 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll"
+        "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+        "system.runtime.serialization.primitives.nuspec"
       ]
     },
     "System.Runtime.Serialization.Xml/4.3.0": {
@@ -11255,12 +11255,10 @@
       ]
     },
     "System.Security.Claims/4.3.0": {
-      "sha512": "IcBRDBDgwFRZVVmSTS4LZ8PMznh13n61nglbD02dCGNUli6zmLDHDVcaaV8roXRkaUmXHKVx0gkSmGTiC6uDHw==",
+      "sha512": "NNTRmSPFVzqBq3Qk4DFGts4Drwpvribvt0AeStWBvuBgF2IzaV1VLsLTHtxzvfnL7g9vaDG4ZbU0r0DZS5qZiQ==",
       "type": "package",
       "path": "system.security.claims/4.3.0",
       "files": [
-        "System.Security.Claims.4.3.0.nupkg.sha512",
-        "System.Security.Claims.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11288,16 +11286,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.security.claims.4.3.0.nupkg.sha512",
+        "system.security.claims.nuspec"
       ]
     },
     "System.Security.Cryptography.Algorithms/4.3.0": {
-      "sha512": "RGqHlVcaXLFvWVK6CQqLaqw3qDh7xHFz4+wS0+hWYKMGSpzbexuCr0qCc3MfVAPtgaWMdS2u7nQig5mkulHNdQ==",
+      "sha512": "UwHoxVRAs4rbazqwL1HtOLlvGGxD8BE97APnyTl8Ov7lGWLXxv5oxkyhRqYhbFx9nVA64p+GPs6A8e//Bsjomw==",
       "type": "package",
       "path": "system.security.cryptography.algorithms/4.3.0",
       "files": [
-        "System.Security.Cryptography.Algorithms.4.3.0.nupkg.sha512",
-        "System.Security.Cryptography.Algorithms.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11327,7 +11325,9 @@
         "runtimes/win/lib/net461/System.Security.Cryptography.Algorithms.dll",
         "runtimes/win/lib/net463/System.Security.Cryptography.Algorithms.dll",
         "runtimes/win/lib/netcore50/System.Security.Cryptography.Algorithms.dll",
-        "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll"
+        "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll",
+        "system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
+        "system.security.cryptography.algorithms.nuspec"
       ]
     },
     "System.Security.Cryptography.Cng/4.5.0": {
@@ -11393,12 +11393,10 @@
       ]
     },
     "System.Security.Cryptography.Csp/4.3.0": {
-      "sha512": "S/hLkaWc9vsT32a2yAZzyNOjeWtRZTDm+L+9A2HN+Avtmggmtl6K0qRKmZSFWt1T7NlwCqVHS2TdjnDNb0Plng==",
+      "sha512": "YbFu3iJA9ow2s1p4XY3r9u9RJEnjaZwCtk0wQgbPQlyPpVFPrBbyQwGKGshmJU++a9h69NHNcbdPFBwMfWMnnA==",
       "type": "package",
       "path": "system.security.cryptography.csp/4.3.0",
       "files": [
-        "System.Security.Cryptography.Csp.4.3.0.nupkg.sha512",
-        "System.Security.Cryptography.Csp.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11419,16 +11417,16 @@
         "runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Csp.dll",
         "runtimes/win/lib/net46/System.Security.Cryptography.Csp.dll",
         "runtimes/win/lib/netcore50/_._",
-        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Csp.dll"
+        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Csp.dll",
+        "system.security.cryptography.csp.4.3.0.nupkg.sha512",
+        "system.security.cryptography.csp.nuspec"
       ]
     },
     "System.Security.Cryptography.Encoding/4.3.0": {
-      "sha512": "/JK8wjaTL/8ItqRAoBLr6puIa3WeUcH/ENE1lPRuyoiu9IMMVAyjehAftms6w1j6Vq7wzi28oLPS4HvGnGYhjA==",
+      "sha512": "Wd0ILnZfaJ76g94aA7g4FONiN3c9khw4+47DzUPX9yja9kfgn1JMw5BNUMhEKUONpoQhY5WivQS3b7KpygzlZA==",
       "type": "package",
       "path": "system.security.cryptography.encoding/4.3.0",
       "files": [
-        "System.Security.Cryptography.Encoding.4.3.0.nupkg.sha512",
-        "System.Security.Cryptography.Encoding.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11458,21 +11456,23 @@
         "ref/xamarinwatchos10/_._",
         "runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll",
         "runtimes/win/lib/net46/System.Security.Cryptography.Encoding.dll",
-        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll"
+        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll",
+        "system.security.cryptography.encoding.4.3.0.nupkg.sha512",
+        "system.security.cryptography.encoding.nuspec"
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "mMfbYiuVNG8+G+MTdfOSp8WX6MTL7GOWQFJnhHryNbx05uKfEgpDyF2EiozxlE6oyZKs2fgdNl31ikIZ1w6/Xw==",
+      "sha512": "ByPlaRcpbrfRS8f2m3dhQlRHbaq+6RIKx3GsbjmvpAVmcc625YV8voCyjdlkv7F2YV/aZo5GNgmp9ttPXF6gBg==",
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
-        "System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
-        "System.Security.Cryptography.OpenSsl.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.6/System.Security.Cryptography.OpenSsl.dll",
         "ref/netstandard1.6/System.Security.Cryptography.OpenSsl.dll",
-        "runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.OpenSsl.dll"
+        "runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.OpenSsl.dll",
+        "system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+        "system.security.cryptography.openssl.nuspec"
       ]
     },
     "System.Security.Cryptography.Pkcs/4.5.0": {
@@ -11508,12 +11508,10 @@
       ]
     },
     "System.Security.Cryptography.Primitives/4.3.0": {
-      "sha512": "5ujQde7bdc0Ls3NYpnt5oUZijcGN6C+M1nqHKgSKhHjrDQ1hI5l4LTCqBLWb4z/KqR8lTMyHgA2dvjP8UMPOYg==",
+      "sha512": "v0KuE8kDOBKNQB4AeLjOoDOtY3YlpwoeRSme9ON2aUWzBJzJeOJXoMzjgYuHmAbkJD1gT+dhjBdSijjfDbyN1g==",
       "type": "package",
       "path": "system.security.cryptography.primitives/4.3.0",
       "files": [
-        "System.Security.Cryptography.Primitives.4.3.0.nupkg.sha512",
-        "System.Security.Cryptography.Primitives.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11531,16 +11529,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+        "system.security.cryptography.primitives.nuspec"
       ]
     },
     "System.Security.Cryptography.X509Certificates/4.3.0": {
-      "sha512": "KSya6CfID1G758zErGHQW0T1pF5RUd6efdC03Duepe5rdvczauyPr4Cb/Qgd3cUS+Vo6SJ+X/Pb451Z2YrLQ6g==",
+      "sha512": "QWeh2rjVam1Vr7yxQdjphmcFPmys8K6DncWRbDnkpnDAZtJfw+T2BG88VQzwRYwswaNr96EENAvwdhYaCyrO0g==",
       "type": "package",
       "path": "system.security.cryptography.x509certificates/4.3.0",
       "files": [
-        "System.Security.Cryptography.X509Certificates.4.3.0.nupkg.sha512",
-        "System.Security.Cryptography.X509Certificates.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11585,7 +11583,9 @@
         "runtimes/win/lib/net46/System.Security.Cryptography.X509Certificates.dll",
         "runtimes/win/lib/net461/System.Security.Cryptography.X509Certificates.dll",
         "runtimes/win/lib/netcore50/System.Security.Cryptography.X509Certificates.dll",
-        "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll"
+        "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll",
+        "system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
+        "system.security.cryptography.x509certificates.nuspec"
       ]
     },
     "System.Security.Cryptography.Xml/4.5.0": {
@@ -11629,12 +11629,10 @@
       ]
     },
     "System.Security.Principal/4.3.0": {
-      "sha512": "WrFpgulQQ7Lgh+n/jrLFVVon1UsDiH85OXSJ8O4JJGxFB2QSPnBo2Ndonhbqm/bGlidFx+qb/H9NHoJxx2ArWg==",
+      "sha512": "B9uhDos5r721Ay+3Vm/d5Qd3x7Qd1lUdqj8XuwIr5SNAVuaevz4wbV6xM019ifUSwTcrqgLWRLFeb7fqvVpadA==",
       "type": "package",
       "path": "system.security.principal/4.3.0",
       "files": [
-        "System.Security.Principal.4.3.0.nupkg.sha512",
-        "System.Security.Principal.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11682,7 +11680,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.security.principal.4.3.0.nupkg.sha512",
+        "system.security.principal.nuspec"
       ]
     },
     "System.Security.Principal.Windows/4.5.0": {
@@ -11728,12 +11728,10 @@
       ]
     },
     "System.Text.Encoding/4.3.0": {
-      "sha512": "gfYQdHk5mn9xz31i6F3PRVEfn/wqDVifBlMvVjmW8DYB11rQS5z23x4MTQs8LN/7eY/pABuFci336UUl/tHJDg==",
+      "sha512": "3fxkhxS3XBUXq1yLZilOAvxAFZZPesFFjoZ6uB9/nX9AkNi0xmJgPsMdV1i8L7EedbWzY+eqASUQ8kIy7zW4Ag==",
       "type": "package",
       "path": "system.text.encoding/4.3.0",
       "files": [
-        "System.Text.Encoding.4.3.0.nupkg.sha512",
-        "System.Text.Encoding.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11790,7 +11788,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.text.encoding.4.3.0.nupkg.sha512",
+        "system.text.encoding.nuspec"
       ]
     },
     "System.Text.Encoding.CodePages/4.5.0": {
@@ -11841,12 +11841,10 @@
       ]
     },
     "System.Text.Encoding.Extensions/4.3.0": {
-      "sha512": "ZXQrGpsznLd1aBiBbm0F91PnIwygqbhBN7UlTxQLDCp8dEm+/BCGYVNMow456cHiAs3SWfqfcwfIoQwgDTL1/g==",
+      "sha512": "XQzfCGM2zfqyJBA5wrM1h1U1ifXAxP6KwK0PCZpctVzr8opc7D2BR0xoPQ4FHXR3HrAa378VAim3c73F1cJV0Q==",
       "type": "package",
       "path": "system.text.encoding.extensions/4.3.0",
       "files": [
-        "System.Text.Encoding.Extensions.4.3.0.nupkg.sha512",
-        "System.Text.Encoding.Extensions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11903,7 +11901,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.text.encoding.extensions.4.3.0.nupkg.sha512",
+        "system.text.encoding.extensions.nuspec"
       ]
     },
     "System.Text.Encodings.Web/4.5.0": {
@@ -11925,12 +11925,10 @@
       ]
     },
     "System.Text.RegularExpressions/4.3.0": {
-      "sha512": "6mpcMafZOlnj8QToYp7bSxoMlv5fzOQ2hBfhDqb6JFpg6VvVsjHvHTHAAUQOuK42e9a+9SwI2Q5Ahsnk/Y1gIg==",
+      "sha512": "LQSkuDIBCX/TEqCKHxgAFpofLlu5lLQWyC65EuvZlGhe0TAGGZhZiHz1XKq4BZRiHgUMp8zsDFiKqp9rPY7T9g==",
       "type": "package",
       "path": "system.text.regularexpressions/4.3.0",
       "files": [
-        "System.Text.RegularExpressions.4.3.0.nupkg.sha512",
-        "System.Text.RegularExpressions.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12003,16 +12001,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.text.regularexpressions.4.3.0.nupkg.sha512",
+        "system.text.regularexpressions.nuspec"
       ]
     },
     "System.Threading/4.3.0": {
-      "sha512": "0E3a1UuGyKzxiy6Dx55a53+y9sYpWJUfHt3uf/qd8nJGBSanfZX445hRy9fFuP3JrlRC4d65pGwagEGG8UCWdg==",
+      "sha512": "rvz9bWOd2ZWicasCdewM/Qc8eIPAdSBV37RB4jpAxuWZYnPPLAJA0qYdhWVnj6FF3/VP//Fvz3mvZCmCBe4sEA==",
       "type": "package",
       "path": "system.threading/4.3.0",
       "files": [
-        "System.Threading.4.3.0.nupkg.sha512",
-        "System.Threading.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12072,7 +12070,9 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.Threading.dll"
+        "runtimes/aot/lib/netcore50/System.Threading.dll",
+        "system.threading.4.3.0.nupkg.sha512",
+        "system.threading.nuspec"
       ]
     },
     "System.Threading.Channels/4.5.0": {
@@ -12096,12 +12096,10 @@
       ]
     },
     "System.Threading.Tasks/4.3.0": {
-      "sha512": "NiaoVfGO0UEHAezTsFvG65rDGtaSbDtkaxXESiKLIMInIZnK336oN+IK4/TZgyPogHJyGsmrqlG7dDMBTJyybA==",
+      "sha512": "TgWIKjDkF2wiQogBFawQ9qm1yNDaVhSZj7Xz17TRd1HNdLcmwnt/5jFhlEuaz41efopGVetIOKmFvCKIyMi3sQ==",
       "type": "package",
       "path": "system.threading.tasks/4.3.0",
       "files": [
-        "System.Threading.Tasks.4.3.0.nupkg.sha512",
-        "System.Threading.Tasks.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12158,7 +12156,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.4.3.0.nupkg.sha512",
+        "system.threading.tasks.nuspec"
       ]
     },
     "System.Threading.Tasks.Extensions/4.5.1": {
@@ -12200,12 +12200,10 @@
       ]
     },
     "System.Threading.Tasks.Parallel/4.3.0": {
-      "sha512": "UhJaijMMcgDPcT979YqZCg6p0+2g+fxhwM2YfO8+cdgQ2pyrqa9hITaudnvqH5Z2xE1isMZtsicKgsAr0ME2SA==",
+      "sha512": "1Sekt4TqrFYRBv4t2q/hg8+u5M83OUCMXLWc6MZd0ZMWPWA7LSn3sTsE8hvhBapW/pwSnAzlUCvRsgk64OW8Cw==",
       "type": "package",
       "path": "system.threading.tasks.parallel/4.3.0",
       "files": [
-        "System.Threading.Tasks.Parallel.4.3.0.nupkg.sha512",
-        "System.Threading.Tasks.Parallel.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12251,16 +12249,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.parallel.4.3.0.nupkg.sha512",
+        "system.threading.tasks.parallel.nuspec"
       ]
     },
     "System.Threading.Thread/4.3.0": {
-      "sha512": "wlcZLN4jW8gZBhqCeKhumV9acUUhGp/poDyKEAtoPDQGpOM0DaZO2GnuSgaRFfg7aOMr5gM89KiiR8mESXGm3w==",
+      "sha512": "B61J1DZsfs9jAisAL3x8hL/EcJSi0zh59o6+0eIlCdZgqMbBJspSeBpyo2fVvTpN0i5RkeliD5CA1QPC5IheTg==",
       "type": "package",
       "path": "system.threading.thread/4.3.0",
       "files": [
-        "System.Threading.Thread.4.3.0.nupkg.sha512",
-        "System.Threading.Thread.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12289,7 +12287,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.threading.thread.4.3.0.nupkg.sha512",
+        "system.threading.thread.nuspec"
       ]
     },
     "System.ValueTuple/4.3.0": {
@@ -12308,12 +12308,10 @@
       ]
     },
     "System.Xml.ReaderWriter/4.3.0": {
-      "sha512": "ykoj8z7U/II5fLWxz3lCr6NKPmBRfmJNIG3qEm8YiOqB5ygJZMjvVq6rv2tIhc+SdudrTZOsjkIKqxw7vhRuxA==",
+      "sha512": "Pr9hOvCyn/TG9IgCC02OwSlo4doGQyLdmKXaG6//AXG2tDH1a5XZFiiiCXY1t3G00w4adKkxtRjdL48L/Y97fw==",
       "type": "package",
       "path": "system.xml.readerwriter/4.3.0",
       "files": [
-        "System.Xml.ReaderWriter.4.3.0.nupkg.sha512",
-        "System.Xml.ReaderWriter.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12374,16 +12372,16 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.xml.readerwriter.4.3.0.nupkg.sha512",
+        "system.xml.readerwriter.nuspec"
       ]
     },
     "System.Xml.XDocument/4.3.0": {
-      "sha512": "7S1DbinaS5qYExY4cyk+Hun9lsXSmspI+JSCcJcpRbQxuH0XwqwZn7ZxoitQnhgbGWFUFLZsDYmVOWHkrls3BA==",
+      "sha512": "ooqPjpfAWZcGRotQ/BxX7uIfz5MDyakkNgNkSTi49kGxrdFYxXmmzc/tVM1quwA9pIEM58w23cV8mUzLvOO+uA==",
       "type": "package",
       "path": "system.xml.xdocument/4.3.0",
       "files": [
-        "System.Xml.XDocument.4.3.0.nupkg.sha512",
-        "System.Xml.XDocument.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12442,11 +12440,13 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.xml.xdocument.4.3.0.nupkg.sha512",
+        "system.xml.xdocument.nuspec"
       ]
     },
     "System.Xml.XmlDocument/4.3.0": {
-      "sha512": "lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
+      "sha512": "qupEOSi7DtbODXJB+nEgnMzfbzZVt0qXtilnR/6OTT8ZMXjx4Hvp/DmYRK3Rlc1A8OUOGQ9UFZEEWi4n4FPWvg==",
       "type": "package",
       "path": "system.xml.xmldocument/4.3.0",
       "files": [
@@ -12673,23 +12673,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dave\\.nuget\\packages\\": {},
+    "C:\\Users\\beats\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dave\\Desktop\\Importexcel\\Importexcel\\Importexcel.csproj",
+      "projectUniqueName": "C:\\Users\\beats\\Documents\\GitHub\\ExcelImportIssue\\Importexcel\\Importexcel.csproj",
       "projectName": "Importexcel",
-      "projectPath": "C:\\Users\\dave\\Desktop\\Importexcel\\Importexcel\\Importexcel.csproj",
-      "packagesPath": "C:\\Users\\dave\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dave\\Desktop\\Importexcel\\Importexcel\\obj\\",
+      "projectPath": "C:\\Users\\beats\\Documents\\GitHub\\ExcelImportIssue\\Importexcel\\Importexcel.csproj",
+      "packagesPath": "C:\\Users\\beats\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\beats\\Documents\\GitHub\\ExcelImportIssue\\Importexcel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dave\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\beats\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
