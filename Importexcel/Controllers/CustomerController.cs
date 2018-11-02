@@ -97,8 +97,8 @@ namespace EPPlusCore.Controllers
                     List<Issue> issuelist = new List<Issue>();
                     List<Data> datas = new List<Data>();
 
-                    SqlConnection connection = new SqlConnection(@"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True");
-                   // SqlConnection connection = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Importexcel;Integrated Security=True;Pooling=False");
+                    //SqlConnection connection = new SqlConnection(@"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True");
+                    SqlConnection connection = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Importexcel;Integrated Security=True;Pooling=False");
                 connection.Open();
                     Debug.Write(connection.State.ToString());
                     SqlCommand cmd = new SqlCommand("SELECT * FROM Issue", connection);
