@@ -97,8 +97,9 @@ namespace EPPlusCore.Controllers
                     List<Issue> issuelist = new List<Issue>();
                     List<Data> datas = new List<Data>();
 
-                    SqlConnection connection = new SqlConnection(@"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True");
-                    connection.Open();
+                   // SqlConnection connection = new SqlConnection(@"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True");
+                    SqlConnection connection = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Importexcel;Integrated Security=True;Pooling=False");
+                connection.Open();
                     Debug.Write(connection.State.ToString());
                     SqlCommand cmd = new SqlCommand("SELECT * FROM Issue", connection);
                     SqlDataReader reader = cmd.ExecuteReader();
@@ -267,9 +268,9 @@ namespace EPPlusCore.Controllers
         [Route("tabel")]
         public IActionResult tabel()
         {
-           string connectionstring = @"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True";
-            SqlConnection conn = new SqlConnection(@"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True");
-           string sql = "SELECT * FROM Issue";
+            //SqlConnection conn = new SqlConnection(@"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True");
+            SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Importexcel;Integrated Security=True;Pooling=False");
+            string sql = "SELECT * FROM Issue";
             SqlCommand cmd = new SqlCommand(sql, conn);
             var model = new List<Issue>();
             conn.Open();
