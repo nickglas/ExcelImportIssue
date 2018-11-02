@@ -151,6 +151,7 @@ namespace EPPlusCore.Controllers
                     }
                     connection.Close();
 
+                int dubbele_data = 0;
                     for (int i = 4; i <= totalRows; i++)
                     {
                         Issue issue = new Issue();
@@ -182,6 +183,7 @@ namespace EPPlusCore.Controllers
                             {
                                 // Response.WriteAsync("<script>alert('DUBBELE DATA GEVONDEN!');</script>");
                                 issue.Project_Code = null;
+                                dubbele_data += 1;
                             }
 
                         }
@@ -193,9 +195,17 @@ namespace EPPlusCore.Controllers
                     
                             _db.Issue.AddRange(issuelist);
                     }
+
+                if (dubbele_data != 0)
+                {
+                    model.answer = "Er is/zijn " + dubbele_data + " dubbele rijen gevonden. De rest is toegevoegd.";
+                }
+                else
+                {
+                    model.answer = "Succesvol toegevoegd";
+                }
                 _db.SaveChanges();
-                model.answer = "Succesvol ";
-                    return View(model);
+                return View(model);
                 }
             
             
