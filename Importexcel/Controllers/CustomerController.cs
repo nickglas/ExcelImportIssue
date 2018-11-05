@@ -268,8 +268,8 @@ namespace EPPlusCore.Controllers
         [Route("tabel")]
         public IActionResult tabel()
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True");
-            //SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Importexcel;Integrated Security=True;Pooling=False");
+            //SqlConnection conn = new SqlConnection(@"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True");
+            SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Importexcel;Integrated Security=True;Pooling=False");
             string sql = "SELECT * FROM Issue";
             SqlCommand cmd = new SqlCommand(sql, conn);
             var model = new List<Issue>();
