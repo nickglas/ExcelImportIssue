@@ -42,43 +42,44 @@ namespace EPPlusCore.Controllers
         public IActionResult Post(List<IFormFile> files)
         {
 
-
-            long size = files.Sum(f => f.Length);
-            var filePath = Path.GetTempFileName();
-            var test = Path.GetDirectoryName(filePath) + Path.DirectorySeparatorChar;
-            var fileName = Path.GetFileName(filePath);
-            var result = Path.ChangeExtension(fileName, ".xlsx");
-            
-
-            foreach (var formFile in files)
+            try
             {
-                if (formFile.Length <= 0)
+                long size = files.Sum(f => f.Length);
+                var filePath = Path.GetTempFileName();
+                var test = Path.GetDirectoryName(filePath) + Path.DirectorySeparatorChar;
+                var fileName = Path.GetFileName(filePath);
+                var result = Path.ChangeExtension(fileName, ".xlsx");
+
+
+                foreach (var formFile in files)
                 {
-                    continue;
+                    if (formFile.Length <= 0)
+                    {
+                        continue;
+                    }
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+
+                        formFile.CopyToAsync(stream);
+
+                    }
                 }
+                FileInfo x = new FileInfo(filePath);
+                x.MoveTo(Path.ChangeExtension(filePath, ".xlsx"));
+                Debug.Write(filePath);
 
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    
-                    formFile.CopyToAsync(stream);
-                    
-                }
-            }
-            FileInfo x = new FileInfo(filePath);
-            x.MoveTo(Path.ChangeExtension(filePath, ".xlsx"));
-            Debug.Write(filePath);
-       
-            FileInfo file = new FileInfo(Path.Combine(test, result));
+                FileInfo file = new FileInfo(Path.Combine(test, result));
 
-            //DEBUG NAMEN NAAR CONSOLE
-            //Debug.WriteLine("\n");
-            //Debug.WriteLine("!!!!!!!!!!!!!!!!!!!!!!");
-            //Debug.WriteLine(filePath);
-            //Debug.WriteLine(test);
-            //Debug.WriteLine(result);
-            //Debug.WriteLine("!!!!!!!!!!!!!!!!!!!!!! \n\n");
+                //DEBUG NAMEN NAAR CONSOLE
+                //Debug.WriteLine("\n");
+                //Debug.WriteLine("!!!!!!!!!!!!!!!!!!!!!!");
+                //Debug.WriteLine(filePath);
+                //Debug.WriteLine(test);
+                //Debug.WriteLine(result);
+                //Debug.WriteLine("!!!!!!!!!!!!!!!!!!!!!! \n\n");
 
-            
+
                 using (ExcelPackage package = new ExcelPackage(file))
                 {
                     response model = new response();
@@ -89,17 +90,18 @@ namespace EPPlusCore.Controllers
                     string check = workSheet.Cells[1, 1].Value.ToString();
 
                     if (check != "ease_import_sheet")
-                    {                       
+                    {
                         model.answer = "De sheet die u heeft geselecteerd is niet geldig.";
                         return View(model);
                     }
 
                     List<Issue> issuelist = new List<Issue>();
                     List<Data> datas = new List<Data>();
+                    List<Doubles> dubbel = new List<Doubles>();
 
-                    //SqlConnection connection = new SqlConnection(@"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True");
-                    SqlConnection connection = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Importexcel;Integrated Security=True;Pooling=False");
-                connection.Open();
+                    SqlConnection connection = new SqlConnection(@"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True");
+                    // SqlConnection connection = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Importexcel;Integrated Security=True;Pooling=False");
+                    connection.Open();
                     Debug.Write(connection.State.ToString());
                     SqlCommand cmd = new SqlCommand("SELECT * FROM Issue", connection);
                     SqlDataReader reader = cmd.ExecuteReader();
@@ -152,7 +154,7 @@ namespace EPPlusCore.Controllers
                     }
                     connection.Close();
 
-                int dubbele_data = 0;
+                    int dubbele_data = 0;
                     for (int i = 4; i <= totalRows; i++)
                     {
                         Issue issue = new Issue();
@@ -182,38 +184,48 @@ namespace EPPlusCore.Controllers
                         {
                             if (issue.Project_Code == item.Project_Code)
                             {
-                                // Response.WriteAsync("<script>alert('DUBBELE DATA GEVONDEN!');</script>");
-                                issue.Project_Code = null;
                                 dubbele_data += 1;
+                                // Response.WriteAsync("<script>alert('DUBBELE DATA GEVONDEN!');</script>");
+                                Doubles doubles = new Doubles();
+                                doubles.rij = dubbele_data + 3;
+                                dubbel.Add(doubles);
+                                issue.Project_Code = null;
                             }
 
                         }
                         if (issue.Project_Code != null)
                         {
-                        Debug.WriteLine("\n\n ISSUE Lijnnummer " + i + " Added \n ");
-                        issuelist.Add(issue);
+                            Debug.WriteLine("\n\n ISSUE Lijnnummer " + i + " Added \n ");
+                            issuelist.Add(issue);
                         }
-                    
-                            _db.Issue.AddRange(issuelist);
+
+                        _db.Issue.AddRange(issuelist);
                     }
 
-                if (dubbele_data != 0)
-                {
-                    model.answer = "Er is/zijn " + dubbele_data + " dubbele rijen gevonden. De rest is toegevoegd.";
+                    if (dubbele_data != 0)
+                    {
+                        model.answer = "Er is/zijn " + dubbele_data + " dubbele rijen gevonden. De rest is toegevoegd. Het gaat om rij : ";
+                        foreach (var item in dubbel)
+                        {
+                            model.answer += " ";
+                            model.answer += item.rij.ToString();
+                        }
+                    }
+                    else
+                    {
+                        model.answer = "Succesvol toegevoegd";
+                    }
+                    _db.SaveChanges();
+                    return View(model);
                 }
-                else
-                {
-                    model.answer = "Succesvol toegevoegd";
-                }
-                _db.SaveChanges();
+            }
+            catch (Exception error)
+            {
+                response model = new response();
+                model.answer = "Er is een fout opgetreden. Mogelijk wordt dit bestand niet ondersteund.";
                 return View(model);
-                }
-            
-            
-               
-            
-            
-            
+            }
+
         }
 
         [HttpGet]
@@ -233,9 +245,9 @@ namespace EPPlusCore.Controllers
                 int totalRows = issuelist.Count();
 
                 worksheet.Cells[1, 1].Value = "ease_import_sheet";
-                
+
                 int i = 0;
-                for (int row = 3; row <= totalRows + 2; row++)
+                for (int row = 4; row <= totalRows + 2; row++)
                 {
                     worksheet.Cells[row, 1].Value = issuelist[i].Gereed;
                     worksheet.Cells[row, 2].Value = issuelist[i].Project_Code;
@@ -300,6 +312,20 @@ namespace EPPlusCore.Controllers
             }
             conn.Close();
             return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult leegmaken()
+        {
+            SqlConnection conn = new SqlConnection(@"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True");
+            //SqlConnection conn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Importexcel;Integrated Security=True;Pooling=False");
+            string sql = "DELETE FROM Issue";
+            SqlCommand cmd = new SqlCommand(sql, conn);
+            var model = new List<Issue>();
+            conn.Open();
+            cmd.ExecuteReader();
+            conn.Close();
+            return RedirectToAction("tabel", "customer");
         }
     }
 }

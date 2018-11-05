@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 namespace Importexcel.Models
 {
     public class Issue
-    {
-        public int id { get; set; }
+    {    
         public string Gereed { get; set; }
         public string Project_Code { get; set; }
         public string Organisatie_Code { get; set; }
@@ -26,5 +25,6 @@ namespace Importexcel.Models
         public string Datum_Gepland { get; set; }
         public string Datum_Gereed { get; set; }
         public string Status { get; set; }
+        public int id { get; set; }
     }
 }
