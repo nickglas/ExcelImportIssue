@@ -14,6 +14,7 @@ using System.Diagnostics;
 using Importexcel.Models;
 using static Microsoft.AspNetCore.Hosting.Internal.HostingApplication;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Net.Mime;
 
 namespace EPPlusCore.Controllers
 {
@@ -228,53 +229,7 @@ namespace EPPlusCore.Controllers
 
         }
 
-        [HttpGet]
-        [Route("ExportCustomer")]
-        public string ExportCustomer()
-        {
-            string rootFolder = _hostingEnvironment.WebRootPath;
-            string fileName = @"ExportCustomers.xlsx";
-
-            FileInfo file = new FileInfo(Path.Combine(rootFolder, fileName));
-
-            using (ExcelPackage package = new ExcelPackage(file))
-            {
-                IList<Issue> issuelist = _db.Issue.ToList();
-
-                ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Issue");
-                int totalRows = issuelist.Count();
-
-                worksheet.Cells[1, 1].Value = "ease_import_sheet";
-
-                int i = 0;
-                for (int row = 4; row <= totalRows + 2; row++)
-                {
-                    worksheet.Cells[row, 1].Value = issuelist[i].Gereed;
-                    worksheet.Cells[row, 2].Value = issuelist[i].Project_Code;
-                    worksheet.Cells[row, 3].Value = issuelist[i].Organisatie_Code;
-                    worksheet.Cells[row, 4].Value = issuelist[i].Input_Bron;
-                    worksheet.Cells[row, 5].Value = issuelist[i].AardId;
-                    worksheet.Cells[row, 6].Value = issuelist[i].Issues;
-                    worksheet.Cells[row, 7].Value = issuelist[i].Categorie;
-                    worksheet.Cells[row, 8].Value = issuelist[i].Actiehouder;
-                    worksheet.Cells[row, 9].Value = issuelist[i].Prioriteit;
-                    worksheet.Cells[row, 10].Value = issuelist[i].Kenmerk;
-                    worksheet.Cells[row, 11].Value = issuelist[i].Issues;
-                    worksheet.Cells[row, 12].Value = issuelist[i].Antwoord;
-                    worksheet.Cells[row, 13].Value = issuelist[i].Opmerking;
-                    worksheet.Cells[row, 14].Value = issuelist[i].Aangever;
-                    worksheet.Cells[row, 15].Value = issuelist[i].ManUren;
-                    worksheet.Cells[row, 16].Value = issuelist[i].Datum_Ingediend;
-                    worksheet.Cells[row, 17].Value = issuelist[i].Datum_Gepland;
-                    worksheet.Cells[row, 18].Value = issuelist[i].Datum_Gereed;
-                    worksheet.Cells[row, 19].Value = issuelist[i].Status;
-                    i++;
-                    worksheet.Cells["A1:Z40"].AutoFitColumns();
-                }
-                package.Save();
-            }
-            return "Customer list has been exported successfully";
-        }
+        
 
         [HttpGet]
         [Route("tabel")]
@@ -326,6 +281,63 @@ namespace EPPlusCore.Controllers
             cmd.ExecuteReader();
             conn.Close();
             return RedirectToAction("tabel", "Issue");
+        }
+
+        [HttpGet]
+        [Route("ExportCustomer")]
+        public IActionResult ExportCustomer()
+        {
+            string rootFolder = _hostingEnvironment.WebRootPath;
+            string fileName = @"ExportIssues.xlsx";
+
+            FileInfo file = new FileInfo(Path.Combine(rootFolder, fileName));
+            string testing = rootFolder+"\\"+ fileName;
+            Debug.WriteLine("!!!!!!!!!!!!!");
+            Debug.WriteLine(testing);
+            Debug.WriteLine("!!!!!!!!!!!!!");
+            if (System.IO.File.Exists(testing))
+            {
+                file.Delete();
+            }
+
+            using (ExcelPackage package = new ExcelPackage(file))
+            {
+                IList<Issue> issuelist = _db.Issue.ToList();
+
+                ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Issue");
+                int totalRows = issuelist.Count();
+
+                worksheet.Cells[1, 1].Value = "ease_import_sheet";
+
+                int i = 0;
+                for (int row = 4; row <= totalRows + 2; row++)
+                {
+                    worksheet.Cells[row, 1].Value = issuelist[i].Gereed;
+                    worksheet.Cells[row, 2].Value = issuelist[i].Project_Code;
+                    worksheet.Cells[row, 3].Value = issuelist[i].Organisatie_Code;
+                    worksheet.Cells[row, 4].Value = issuelist[i].Input_Bron;
+                    worksheet.Cells[row, 5].Value = issuelist[i].AardId;
+                    worksheet.Cells[row, 6].Value = issuelist[i].Issues;
+                    worksheet.Cells[row, 7].Value = issuelist[i].Categorie;
+                    worksheet.Cells[row, 8].Value = issuelist[i].Actiehouder;
+                    worksheet.Cells[row, 9].Value = issuelist[i].Prioriteit;
+                    worksheet.Cells[row, 10].Value = issuelist[i].Kenmerk;
+                    worksheet.Cells[row, 11].Value = issuelist[i].Issues;
+                    worksheet.Cells[row, 12].Value = issuelist[i].Antwoord;
+                    worksheet.Cells[row, 13].Value = issuelist[i].Opmerking;
+                    worksheet.Cells[row, 14].Value = issuelist[i].Aangever;
+                    worksheet.Cells[row, 15].Value = issuelist[i].ManUren;
+                    worksheet.Cells[row, 16].Value = issuelist[i].Datum_Ingediend;
+                    worksheet.Cells[row, 17].Value = issuelist[i].Datum_Gepland;
+                    worksheet.Cells[row, 18].Value = issuelist[i].Datum_Gereed;
+                    worksheet.Cells[row, 19].Value = issuelist[i].Status;
+                    i++;
+                    worksheet.Cells["A1:Z40"].AutoFitColumns();
+                }
+                package.Save();
+            }
+            return File("~/ExportIssues.xlsx", MediaTypeNames.Text.Plain, "ExportIssues.xlsx");
+
         }
     }
 }
