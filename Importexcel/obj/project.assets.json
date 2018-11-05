@@ -12679,9 +12679,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dave\\Desktop\\Importexcel\\Importexcel\\Importexcel.csproj",
-      "projectName": "Importexcel",
-      "projectPath": "C:\\Users\\dave\\Desktop\\Importexcel\\Importexcel\\Importexcel.csproj",
+      "projectUniqueName": "C:\\Users\\dave\\Desktop\\Importexcel\\Importexcel\\ImportIssue.csproj",
+      "projectName": "ImportIssue",
+      "projectPath": "C:\\Users\\dave\\Desktop\\Importexcel\\Importexcel\\ImportIssue.csproj",
       "packagesPath": "C:\\Users\\dave\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dave\\Desktop\\Importexcel\\Importexcel\\obj\\",
       "projectStyle": "PackageReference",

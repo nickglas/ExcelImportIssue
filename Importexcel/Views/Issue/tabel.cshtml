@@ -1,0 +1,63 @@
+﻿@model List<Issue>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<h1>Issues</h1>
+
+@if (Model.Count != 0)
+{
+    <table class="sheettable">
+        <tr>
+            <th>Id</th>
+            <th>Gereed</th>
+            <th>Project Code</th>
+            <th>Organisatie Code</th>
+            <th>Input Bron</th>
+            <th>Aard Id</th>
+            <th>Categorie</th>
+            <th>ActieHouder</th>
+            <th>Prioriteit</th>
+            <th>Kenmerk</th>
+            <th>Issues</th>
+            <th>Antwoord</th>
+            <th>Opmerking</th>
+            <th>Aangever </th>
+            <th>Manuren</th>
+
+
+        </tr>
+        @foreach (var issue in Model)
+        {
+            <tr>
+                <td>@issue.id</td>
+                <td>@issue.Gereed</td>
+                <td>@issue.Project_Code</td>
+                <td>@issue.Organisatie_Code</td>
+                <td>@issue.Input_Bron</td>
+                <td>@issue.AardId</td>
+                <td>@issue.Categorie</td>
+                <td>@issue.Actiehouder</td>
+                <td>@issue.Prioriteit</td>
+                <td>@issue.Kenmerk</td>
+                <td>@issue.Issues</td>
+                <td>@issue.Antwoord</td>
+                <td>@issue.Opmerking</td>
+                <td>@issue.Aangever</td>
+                <td>@issue.ManUren</td>
+
+            </tr>
+        }
+    </table>
+    <form method="post" enctype="multipart/form-data" asp-controller="Issue" asp-action="leegmaken">
+        <input type="submit" value="Database leegmaken" />
+    </form>
+}
+else
+{
+    <h3>Geen data in de database</h3>
+}
+
+
+
+
