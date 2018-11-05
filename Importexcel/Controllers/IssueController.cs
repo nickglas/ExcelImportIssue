@@ -128,7 +128,6 @@ namespace EPPlusCore.Controllers
                         item.Datum_Gereed = reader.GetString(16);
                         item.Status = reader.GetString(17);
 
-
                         datas.Add(item);
 
                         //PRINT ALLE ENTRIES IN DE DEBUG CONSOLE
@@ -220,7 +219,7 @@ namespace EPPlusCore.Controllers
                     return View(model);
                 }
             }
-            catch (Exception error)
+            catch (Exception)
             {
                 response model = new response();
                 model.answer = "Er is een fout opgetreden. Mogelijk wordt dit bestand niet ondersteund.";
@@ -309,9 +308,32 @@ namespace EPPlusCore.Controllers
 
                 worksheet.Cells[1, 1].Value = "ease_import_sheet";
 
+                worksheet.Cells[3, 1].Value = "Gereed";
+                worksheet.Cells[3, 2].Value = "Project_Code";
+                worksheet.Cells[3, 3].Value = "Organisatie_Code";
+                worksheet.Cells[3, 4].Value = "Input_Bron";
+                worksheet.Cells[3, 5].Value = "AardId";
+                worksheet.Cells[3, 6].Value = "Issues";
+                worksheet.Cells[3, 7].Value = "Categorie";
+                worksheet.Cells[3, 8].Value = "Actiehouder";
+                worksheet.Cells[3, 9].Value = "Prioriteit";
+                worksheet.Cells[3, 10].Value = "Kenmerk";
+                worksheet.Cells[3, 11].Value = "Issues";
+                worksheet.Cells[3, 12].Value = "Antwoord";
+                worksheet.Cells[3, 13].Value = "Opmerking";
+                worksheet.Cells[3, 14].Value = "Aangever";
+                worksheet.Cells[3, 15].Value = "ManUren";
+                worksheet.Cells[3, 16].Value = "Datum_Ingediend";
+                worksheet.Cells[3, 17].Value = "Datum_Gepland";
+                worksheet.Cells[3, 18].Value = "Datum_Gereed";
+                worksheet.Cells[3, 19].Value = "Status";
+                worksheet.Cells[3, 20].Value = "id";
+               
+
                 int i = 0;
-                for (int row = 4; row <= totalRows + 2; row++)
+                for (int row = 4; row <= totalRows + 3; row++)
                 {
+
                     worksheet.Cells[row, 1].Value = issuelist[i].Gereed;
                     worksheet.Cells[row, 2].Value = issuelist[i].Project_Code;
                     worksheet.Cells[row, 3].Value = issuelist[i].Organisatie_Code;
@@ -331,6 +353,8 @@ namespace EPPlusCore.Controllers
                     worksheet.Cells[row, 17].Value = issuelist[i].Datum_Gepland;
                     worksheet.Cells[row, 18].Value = issuelist[i].Datum_Gereed;
                     worksheet.Cells[row, 19].Value = issuelist[i].Status;
+                    worksheet.Cells[row, 20].Value = issuelist[i].id;
+
                     i++;
                     worksheet.Cells["A1:Z40"].AutoFitColumns();
                 }
