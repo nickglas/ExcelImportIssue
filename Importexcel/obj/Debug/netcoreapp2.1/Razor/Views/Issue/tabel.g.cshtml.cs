@@ -59,7 +59,7 @@ using Importexcel.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(22, 79, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "654eb2affcd8492e9ba00ed4d8dc9956", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7834988ce9d24e4e9bc5d1ddce1ec198", async() => {
                 BeginContext(28, 66, true);
                 WriteLiteral("\r\n    <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\" />\r\n");
                 EndContext();
@@ -275,7 +275,7 @@ using Importexcel.Models;
             WriteLiteral("    </table>\r\n    ");
             EndContext();
             BeginContext(1443, 169, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52a3d639c1c846a98fc375b9d48e06f2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e553116edae94f10a5c54601c41ea8d9", async() => {
                 BeginContext(1539, 66, true);
                 WriteLiteral("\r\n        <input type=\"submit\" value=\"Database leegmaken\" />\r\n    ");
                 EndContext();

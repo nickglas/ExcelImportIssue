@@ -110,10 +110,10 @@ namespace EPPlusCore.Controllers
                     {
                         Data item = new Data();
                         item.Gereed = reader.GetString(0);
-                        item.Project_Code = reader.GetString(1);
-                        item.Organisatie_Code = reader.GetString(2);
-                        item.Input_Bron = reader.GetString(3);
-                        item.AardId = reader.GetString(4);
+                        item.Project_Code = reader.GetDouble(1);
+                        item.Organisatie_Code = reader.GetDouble(2);
+                        item.Input_Bron = reader.GetDouble(3);
+                        item.AardId = reader.GetDouble(4);
                         item.Categorie = reader.GetString(5);
                         item.Actiehouder = reader.GetString(6);
                         item.Prioriteit = reader.GetString(7);
@@ -122,7 +122,7 @@ namespace EPPlusCore.Controllers
                         item.Antwoord = reader.GetString(10);
                         item.Opmerking = reader.GetString(11);
                         item.Aangever = reader.GetString(12);
-                        item.Man_Uren = reader.GetString(13);
+                        item.Man_Uren = reader.GetDouble(13);
                         item.Datum_Ingedied = reader.GetString(14);
                         item.Datum_Gepland = reader.GetString(15);
                         item.Datum_Gereed = reader.GetString(16);
@@ -131,7 +131,7 @@ namespace EPPlusCore.Controllers
                         datas.Add(item);
 
                         //PRINT ALLE ENTRIES IN DE DEBUG CONSOLE
-                        Debug.WriteLine("\n\n", item.Id);
+                        Debug.WriteLine("\n\n", item.id);
                         Debug.WriteLine(item.Gereed);
                         Debug.WriteLine(item.Project_Code);
                         Debug.WriteLine(item.Organisatie_Code);
@@ -160,10 +160,10 @@ namespace EPPlusCore.Controllers
                         Issue issue = new Issue();
                         
                         issue.Gereed = workSheet.Cells[i, 1].Value.ToString();
-                        issue.Project_Code = workSheet.Cells[i, 2].Value.ToString();
-                        issue.Organisatie_Code = workSheet.Cells[i, 3].Value.ToString();
-                        issue.Input_Bron = workSheet.Cells[i, 4].Value.ToString();
-                        issue.AardId = workSheet.Cells[i, 5].Value.ToString();
+                        issue.Project_Code = (Double)workSheet.Cells[i, 2].Value;
+                        issue.Organisatie_Code = (Double)workSheet.Cells[i, 3].Value;
+                        issue.Input_Bron = (Double)workSheet.Cells[i, 4].Value;
+                        issue.AardId = (Double)workSheet.Cells[i, 5].Value;
                         issue.Categorie = workSheet.Cells[i, 6].Value.ToString();
                         issue.Actiehouder = workSheet.Cells[i, 7].Value.ToString();
                         issue.Prioriteit = workSheet.Cells[i, 8].Value.ToString();
@@ -172,7 +172,7 @@ namespace EPPlusCore.Controllers
                         issue.Antwoord = workSheet.Cells[i, 11].Value.ToString();
                         issue.Opmerking = workSheet.Cells[i, 12].Value.ToString();
                         issue.Aangever = workSheet.Cells[i, 13].Value.ToString();
-                        issue.ManUren = workSheet.Cells[i, 14].Value.ToString();
+                        issue.ManUren = (Double)workSheet.Cells[i, 14].Value;
                         issue.Datum_Ingediend = workSheet.Cells[i, 15].Value.ToString();
                         issue.Datum_Gepland = workSheet.Cells[i, 16].Value.ToString();
                         issue.Datum_Gereed = workSheet.Cells[i, 17].Value.ToString();
@@ -189,11 +189,11 @@ namespace EPPlusCore.Controllers
                                 Doubles doubles = new Doubles();
                                 doubles.rij = dubbele_data + 3;
                                 dubbel.Add(doubles);
-                                issue.Project_Code = null;
+                                issue.Actiehouder = null;
                             }
 
                         }
-                        if (issue.Project_Code != null)
+                        if (issue.Actiehouder != null)
                         {
                             Debug.WriteLine("\n\n ISSUE Lijnnummer " + i + " Added \n ");
                             issuelist.Add(issue);
@@ -219,10 +219,10 @@ namespace EPPlusCore.Controllers
                     return View(model);
                 }
             }
-            catch (Exception)
+            catch (Exception error)
             {
                 response model = new response();
-                model.answer = "Er is een fout opgetreden. Mogelijk wordt dit bestand niet ondersteund.";
+                model.answer = "Er is een fout opgetreden. Mogelijk wordt dit bestand niet ondersteund." + error;
                 return View(model);
             }
 
@@ -245,10 +245,10 @@ namespace EPPlusCore.Controllers
             {
                 var item = new Issue();
                 item.Gereed = reader.GetString(0);
-                item.Project_Code = reader.GetString(1);
-                item.Organisatie_Code = reader.GetString(2);
-                item.Input_Bron = reader.GetString(3);
-                item.AardId = reader.GetString(4);
+                item.Project_Code = reader.GetDouble(1);
+                item.Organisatie_Code = reader.GetDouble(2);
+                item.Input_Bron = reader.GetDouble(3);
+                item.AardId = reader.GetDouble(4);
                 item.Categorie = reader.GetString(5);
                 item.Actiehouder = reader.GetString(6);
                 item.Prioriteit = reader.GetString(7);
@@ -257,7 +257,7 @@ namespace EPPlusCore.Controllers
                 item.Antwoord = reader.GetString(10);
                 item.Opmerking = reader.GetString(11);
                 item.Aangever = reader.GetString(12);
-                item.ManUren = reader.GetString(13);
+                item.ManUren = reader.GetDouble(13);
                 item.Datum_Ingediend = reader.GetString(14);
                 item.Datum_Gepland = reader.GetString(15);
                 item.Datum_Gereed = reader.GetString(16);
@@ -290,11 +290,11 @@ namespace EPPlusCore.Controllers
             string fileName = @"ExportIssues.xlsx";
 
             FileInfo file = new FileInfo(Path.Combine(rootFolder, fileName));
-            string testing = rootFolder+"\\"+ fileName;
+            string excelfile = rootFolder+"\\"+ fileName;
             Debug.WriteLine("!!!!!!!!!!!!!");
-            Debug.WriteLine(testing);
+            Debug.WriteLine(excelfile);
             Debug.WriteLine("!!!!!!!!!!!!!");
-            if (System.IO.File.Exists(testing))
+            if (System.IO.File.Exists(excelfile))
             {
                 file.Delete();
             }
@@ -305,30 +305,31 @@ namespace EPPlusCore.Controllers
 
                 ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Issue");
                 int totalRows = issuelist.Count();
-
-                worksheet.Cells[1, 1].Value = "ease_import_sheet";
-
-                worksheet.Cells[3, 1].Value = "Gereed";
-                worksheet.Cells[3, 2].Value = "Project_Code";
-                worksheet.Cells[3, 3].Value = "Organisatie_Code";
-                worksheet.Cells[3, 4].Value = "Input_Bron";
-                worksheet.Cells[3, 5].Value = "AardId";
-                worksheet.Cells[3, 6].Value = "Issues";
-                worksheet.Cells[3, 7].Value = "Categorie";
-                worksheet.Cells[3, 8].Value = "Actiehouder";
-                worksheet.Cells[3, 9].Value = "Prioriteit";
-                worksheet.Cells[3, 10].Value = "Kenmerk";
-                worksheet.Cells[3, 11].Value = "Issues";
-                worksheet.Cells[3, 12].Value = "Antwoord";
-                worksheet.Cells[3, 13].Value = "Opmerking";
-                worksheet.Cells[3, 14].Value = "Aangever";
-                worksheet.Cells[3, 15].Value = "ManUren";
-                worksheet.Cells[3, 16].Value = "Datum_Ingediend";
-                worksheet.Cells[3, 17].Value = "Datum_Gepland";
-                worksheet.Cells[3, 18].Value = "Datum_Gereed";
-                worksheet.Cells[3, 19].Value = "Status";
-                worksheet.Cells[3, 20].Value = "id";
-               
+                using (ExcelRange Rng = worksheet.Cells[3, 1, 3, 24])
+                {
+                    Rng.Style.Font.Bold = true;
+                    worksheet.Cells[1, 1].Value = "ease_import_sheet";
+                    worksheet.Cells[3, 1].Value = "Gereed";
+                    worksheet.Cells[3, 2].Value = "Project_Code";
+                    worksheet.Cells[3, 3].Value = "Organisatie_Code";
+                    worksheet.Cells[3, 4].Value = "Input_Bron";
+                    worksheet.Cells[3, 5].Value = "AardId";
+                    worksheet.Cells[3, 6].Value = "Issues";
+                    worksheet.Cells[3, 7].Value = "Categorie";
+                    worksheet.Cells[3, 8].Value = "Actiehouder";
+                    worksheet.Cells[3, 9].Value = "Prioriteit";
+                    worksheet.Cells[3, 10].Value = "Kenmerk";
+                    worksheet.Cells[3, 11].Value = "Issues";
+                    worksheet.Cells[3, 12].Value = "Antwoord";
+                    worksheet.Cells[3, 13].Value = "Opmerking";
+                    worksheet.Cells[3, 14].Value = "Aangever";
+                    worksheet.Cells[3, 15].Value = "ManUren";
+                    worksheet.Cells[3, 16].Value = "Datum_Ingediend";
+                    worksheet.Cells[3, 17].Value = "Datum_Gepland";
+                    worksheet.Cells[3, 18].Value = "Datum_Gereed";
+                    worksheet.Cells[3, 19].Value = "Status";
+                    worksheet.Cells[3, 20].Value = "id";
+                }
 
                 int i = 0;
                 for (int row = 4; row <= totalRows + 3; row++)
