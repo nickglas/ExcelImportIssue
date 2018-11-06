@@ -12679,11 +12679,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\beats\\Desktop\\test\\ExcelImportIssue-master\\Importexcel\\ImportIssue.csproj",
       "projectName": "ImportIssue",
       "projectPath": "C:\\Users\\beats\\Desktop\\test\\ExcelImportIssue-master\\Importexcel\\ImportIssue.csproj",
       "packagesPath": "C:\\Users\\beats\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\beats\\Desktop\\test\\ExcelImportIssue-master\\Importexcel\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\dave\\Desktop\\Importexcel\\Importexcel\\ImportIssue.csproj",
+      "projectName": "ImportIssue",
+      "projectPath": "C:\\Users\\dave\\Desktop\\Importexcel\\Importexcel\\ImportIssue.csproj",
+      "packagesPath": "C:\\Users\\dave\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dave\\Desktop\\Importexcel\\Importexcel\\obj\\",
+>>>>>>> 9af9740cc6925e75d193d615f72f44f3c1b2173e
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

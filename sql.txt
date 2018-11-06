@@ -1,9 +1,9 @@
 CREATE TABLE [dbo].[Issue] (
     [Gereed]           NVARCHAR (50) NOT NULL,
-    [Project_Code]     NVARCHAR (50) NOT NULL,
-    [Organisatie_Code] NVARCHAR (50) NOT NULL,
-    [Input_Bron]       NVARCHAR (50) NOT NULL,
-    [AardId]           NVARCHAR (50) NOT NULL,
+    [Project_Code]     FLOAT (53)    NOT NULL,
+    [Organisatie_Code] FLOAT (53)    NOT NULL,
+    [Input_Bron]       FLOAT (53)    NOT NULL,
+    [AardId]           FLOAT (53)    NOT NULL,
     [Categorie]        NVARCHAR (50) NOT NULL,
     [Actiehouder]      NVARCHAR (50) NOT NULL,
     [Prioriteit]       NVARCHAR (50) NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE [dbo].[Issue] (
     [Antwoord]         NVARCHAR (50) NOT NULL,
     [Opmerking]        NVARCHAR (50) NOT NULL,
     [Aangever]         NVARCHAR (50) NOT NULL,
-    [ManUren]          NVARCHAR (50) NOT NULL,
+    [ManUren]          FLOAT (53)    NOT NULL,
     [Datum_Ingediend]  NVARCHAR (50) NOT NULL,
     [Datum_Gepland]    NVARCHAR (50) NOT NULL,
     [Datum_Gereed]     NVARCHAR (50) NOT NULL,
@@ -20,4 +20,6 @@ CREATE TABLE [dbo].[Issue] (
     [id]               INT           IDENTITY (1, 1) NOT NULL,
     CONSTRAINT [PK_Issue] PRIMARY KEY CLUSTERED ([id] ASC)
 );
+
+
 

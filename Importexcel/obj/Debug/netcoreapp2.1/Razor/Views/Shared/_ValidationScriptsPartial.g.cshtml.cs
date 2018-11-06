@@ -64,6 +64,7 @@ using Importexcel.Models;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
+<<<<<<< HEAD
             BeginContext(0, 221, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "deaa42218bd84af5ab072e8adc138500", async() => {
                 BeginContext(35, 5, true);
@@ -71,6 +72,15 @@ using Importexcel.Models;
                 EndContext();
                 BeginContext(40, 71, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a013cee66974e8b8dc56dad39025a46", async() => {
+=======
+            BeginContext(0, 224, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eaa6d6de7502496a988bd11099947940", async() => {
+                BeginContext(35, 6, true);
+                WriteLiteral("\r\n    ");
+                EndContext();
+                BeginContext(41, 71, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fe543093bce6435f8e0c748539bb0f1d", async() => {
+>>>>>>> 9af9740cc6925e75d193d615f72f44f3c1b2173e
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -87,8 +97,13 @@ using Importexcel.Models;
                 BeginContext(111, 5, true);
                 WriteLiteral("\n    ");
                 EndContext();
+<<<<<<< HEAD
                 BeginContext(116, 90, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6eda4546b88941d59c0bb2de5ca50a07", async() => {
+=======
+                BeginContext(118, 90, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed563e0ba1db4382bf537382721aaeff", async() => {
+>>>>>>> 9af9740cc6925e75d193d615f72f44f3c1b2173e
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -122,6 +137,7 @@ using Importexcel.Models;
             BeginContext(221, 1, true);
             WriteLiteral("\n");
             EndContext();
+<<<<<<< HEAD
             BeginContext(222, 931, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "09e8dcbe63a74a20bddf4c6e9d3bb198", async() => {
                 BeginContext(257, 5, true);
@@ -131,6 +147,17 @@ using Importexcel.Models;
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d19bfb9637d4344a030df1e259e221a", async() => {
                     BeginContext(642, 5, true);
                     WriteLiteral("\n    ");
+=======
+            BeginContext(226, 944, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5780a11cc27f445d98f572c750b920da", async() => {
+                BeginContext(261, 6, true);
+                WriteLiteral("\r\n    ");
+                EndContext();
+                BeginContext(267, 399, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "23088eae3f56478d91226063b8a2c6e9", async() => {
+                    BeginContext(651, 6, true);
+                    WriteLiteral("\r\n    ");
+>>>>>>> 9af9740cc6925e75d193d615f72f44f3c1b2173e
                     EndContext();
                 }
                 );
@@ -155,10 +182,17 @@ using Importexcel.Models;
                 BeginContext(656, 5, true);
                 WriteLiteral("\n    ");
                 EndContext();
+<<<<<<< HEAD
                 BeginContext(661, 477, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "344b6fb043f14ec28775a632f1ed459a", async() => {
                     BeginContext(1124, 5, true);
                     WriteLiteral("\n    ");
+=======
+                BeginContext(672, 482, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cf42e61447a847c9b3256ebf78418ada", async() => {
+                    BeginContext(1139, 6, true);
+                    WriteLiteral("\r\n    ");
+>>>>>>> 9af9740cc6925e75d193d615f72f44f3c1b2173e
                     EndContext();
                 }
                 );
