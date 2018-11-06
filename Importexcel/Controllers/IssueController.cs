@@ -16,7 +16,7 @@ using static Microsoft.AspNetCore.Hosting.Internal.HostingApplication;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Net.Mime;
 
- namespace EPPlusCore.Controllers
+namespace EPPlusCore.Controllers
 {
     [Produces("application/json")]
     public class IssueController : Controller
@@ -182,18 +182,18 @@ using System.Net.Mime;
 
                         foreach (var item in datas)
                         {
-                            if (issue.Actiehouder == item.Actiehouder)
+                            if (issue.Project_Code == item.Project_Code)
                             {
                                 dubbele_data += 1;
                                 // Response.WriteAsync("<script>alert('DUBBELE DATA GEVONDEN!');</script>");
                                 Doubles doubles = new Doubles();
                                 doubles.rij = dubbele_data + 3;
                                 dubbel.Add(doubles);
-                                issue.Status = null;
+                                issue.Actiehouder = null;
                             }
 
                         }
-                        if (issue.Status != null)
+                        if (issue.Actiehouder != null)
                         {
                             Debug.WriteLine("\n\n ISSUE Lijnnummer " + i + " Added \n ");
                             issuelist.Add(issue);
@@ -290,11 +290,11 @@ using System.Net.Mime;
             string fileName = @"ExportIssues.xlsx";
 
             FileInfo file = new FileInfo(Path.Combine(rootFolder, fileName));
-            string testing = rootFolder+"\\"+ fileName;
+            string excelfile = rootFolder+"\\"+ fileName;
             Debug.WriteLine("!!!!!!!!!!!!!");
-            Debug.WriteLine(testing);
+            Debug.WriteLine(excelfile);
             Debug.WriteLine("!!!!!!!!!!!!!");
-            if (System.IO.File.Exists(testing))
+            if (System.IO.File.Exists(excelfile))
             {
                 file.Delete();
             }
@@ -305,30 +305,30 @@ using System.Net.Mime;
 
                 ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Issue");
                 int totalRows = issuelist.Count();
-
-                worksheet.Cells[1, 1].Value = "ease_import_sheet";
-
-                worksheet.Cells[3, 1].Value = "Gereed";
-                worksheet.Cells[3, 2].Value = "Project_Code";
-                worksheet.Cells[3, 3].Value = "Organisatie_Code";
-                worksheet.Cells[3, 4].Value = "Input_Bron";
-                worksheet.Cells[3, 5].Value = "AardId";
-                worksheet.Cells[3, 6].Value = "Issues";
-                worksheet.Cells[3, 7].Value = "Categorie";
-                worksheet.Cells[3, 8].Value = "Actiehouder";
-                worksheet.Cells[3, 9].Value = "Prioriteit";
-                worksheet.Cells[3, 10].Value = "Kenmerk";
-                worksheet.Cells[3, 11].Value = "Issues";
-                worksheet.Cells[3, 12].Value = "Antwoord";
-                worksheet.Cells[3, 13].Value = "Opmerking";
-                worksheet.Cells[3, 14].Value = "Aangever";
-                worksheet.Cells[3, 15].Value = "ManUren";
-                worksheet.Cells[3, 16].Value = "Datum_Ingediend";
-                worksheet.Cells[3, 17].Value = "Datum_Gepland";
-                worksheet.Cells[3, 18].Value = "Datum_Gereed";
-                worksheet.Cells[3, 19].Value = "Status";
-                worksheet.Cells[3, 20].Value = "id";
-               
+                using (ExcelRange Rng = worksheet.Cells[3, 1, 3, 24])
+                {
+                    Rng.Style.Font.Bold = true;
+                    worksheet.Cells[1, 1].Value = "ease_import_sheet";
+                    worksheet.Cells[3, 1].Value = "Gereed";
+                    worksheet.Cells[3, 2].Value = "Project_Code";
+                    worksheet.Cells[3, 3].Value = "Organisatie_Code";
+                    worksheet.Cells[3, 4].Value = "Input_Bron";
+                    worksheet.Cells[3, 5].Value = "AardId";
+                    worksheet.Cells[3, 6].Value = "Categorie";
+                    worksheet.Cells[3, 7].Value = "Actiehouder";
+                    worksheet.Cells[3, 8].Value = "Prioriteit";
+                    worksheet.Cells[3, 9].Value = "Kenmerk";
+                    worksheet.Cells[3, 10].Value = "Issues";
+                    worksheet.Cells[3, 11].Value = "Antwoord";
+                    worksheet.Cells[3, 12].Value = "Opmerking";
+                    worksheet.Cells[3, 13].Value = "Aangever";
+                    worksheet.Cells[3, 14].Value = "Manuren";
+                    worksheet.Cells[3, 15].Value = "Datum ingediend";
+                    worksheet.Cells[3, 16].Value = "Datum gepland";
+                    worksheet.Cells[3, 17].Value = "Datum gereed";
+                    worksheet.Cells[3, 18].Value = "Status";
+                    worksheet.Cells[3, 19].Value = "id";
+                }
 
                 int i = 0;
                 for (int row = 4; row <= totalRows + 3; row++)
@@ -339,21 +339,20 @@ using System.Net.Mime;
                     worksheet.Cells[row, 3].Value = issuelist[i].Organisatie_Code;
                     worksheet.Cells[row, 4].Value = issuelist[i].Input_Bron;
                     worksheet.Cells[row, 5].Value = issuelist[i].AardId;
-                    worksheet.Cells[row, 6].Value = issuelist[i].Issues;
-                    worksheet.Cells[row, 7].Value = issuelist[i].Categorie;
-                    worksheet.Cells[row, 8].Value = issuelist[i].Actiehouder;
-                    worksheet.Cells[row, 9].Value = issuelist[i].Prioriteit;
-                    worksheet.Cells[row, 10].Value = issuelist[i].Kenmerk;
-                    worksheet.Cells[row, 11].Value = issuelist[i].Issues;
-                    worksheet.Cells[row, 12].Value = issuelist[i].Antwoord;
-                    worksheet.Cells[row, 13].Value = issuelist[i].Opmerking;
-                    worksheet.Cells[row, 14].Value = issuelist[i].Aangever;
-                    worksheet.Cells[row, 15].Value = issuelist[i].ManUren;
-                    worksheet.Cells[row, 16].Value = issuelist[i].Datum_Ingediend;
-                    worksheet.Cells[row, 17].Value = issuelist[i].Datum_Gepland;
-                    worksheet.Cells[row, 18].Value = issuelist[i].Datum_Gereed;
-                    worksheet.Cells[row, 19].Value = issuelist[i].Status;
-                    worksheet.Cells[row, 20].Value = issuelist[i].id;
+                    worksheet.Cells[row, 6].Value = issuelist[i].Categorie;
+                    worksheet.Cells[row, 7].Value = issuelist[i].Actiehouder;
+                    worksheet.Cells[row, 8].Value = issuelist[i].Prioriteit;
+                    worksheet.Cells[row, 9].Value = issuelist[i].Kenmerk;
+                    worksheet.Cells[row, 10].Value = issuelist[i].Issues;
+                    worksheet.Cells[row, 11].Value = issuelist[i].Antwoord;
+                    worksheet.Cells[row, 12].Value = issuelist[i].Opmerking;
+                    worksheet.Cells[row, 13].Value = issuelist[i].Aangever;
+                    worksheet.Cells[row, 14].Value = issuelist[i].ManUren;
+                    worksheet.Cells[row, 15].Value = issuelist[i].Datum_Ingediend;
+                    worksheet.Cells[row, 16].Value = issuelist[i].Datum_Gepland;
+                    worksheet.Cells[row, 17].Value = issuelist[i].Datum_Gereed;
+                    worksheet.Cells[row, 18].Value = issuelist[i].Status;
+                    worksheet.Cells[row, 19].Value = issuelist[i].id;
 
                     i++;
                     worksheet.Cells["A1:Z40"].AutoFitColumns();

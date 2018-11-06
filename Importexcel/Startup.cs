@@ -27,7 +27,6 @@ namespace Importexcel
         public void ConfigureServices(IServiceCollection services )
         {
             string connection = "Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True";
-            //string connection = @"Data Source=.\SQLEXPRESS;Initial Catalog=Importexcel;Integrated Security=True;Pooling=False";
             services.AddDbContext<DbCustomersContext>(options => options.UseSqlServer(connection));
             services.Configure<CookiePolicyOptions>(options =>
             {
