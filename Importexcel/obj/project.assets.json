@@ -8636,8 +8636,6 @@
       "type": "package",
       "path": "system.data.common/4.3.0",
       "files": [
-        "System.Data.Common.4.3.0.nupkg.sha512",
-        "System.Data.Common.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8677,7 +8675,9 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._"
+        "ref/xamarinwatchos10/_._",
+        "system.data.common.4.3.0.nupkg.sha512",
+        "system.data.common.nuspec"
       ]
     },
     "System.Data.SqlClient/4.5.1": {
@@ -12679,11 +12679,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\beats\\Documents\\GitHub\\ExcelImportIssue\\Importexcel\\Importexcel.csproj",
-      "projectName": "Importexcel",
-      "projectPath": "C:\\Users\\beats\\Documents\\GitHub\\ExcelImportIssue\\Importexcel\\Importexcel.csproj",
+      "projectUniqueName": "C:\\Users\\beats\\Desktop\\test\\ExcelImportIssue-master\\Importexcel\\ImportIssue.csproj",
+      "projectName": "ImportIssue",
+      "projectPath": "C:\\Users\\beats\\Desktop\\test\\ExcelImportIssue-master\\Importexcel\\ImportIssue.csproj",
       "packagesPath": "C:\\Users\\beats\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\beats\\Documents\\GitHub\\ExcelImportIssue\\Importexcel\\obj\\",
+      "outputPath": "C:\\Users\\beats\\Desktop\\test\\ExcelImportIssue-master\\Importexcel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

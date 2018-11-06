@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Importexcel", "Importexcel\Importexcel.csproj", "{D4648F83-BDC4-4C3A-8249-D9045A08FCEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImportIssue", "Importexcel\ImportIssue.csproj", "{D4648F83-BDC4-4C3A-8249-D9045A08FCEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
