@@ -99,6 +99,7 @@ namespace EPPlusCore.Controllers
                     List<Issue> issuelist = new List<Issue>();
                     List<Data> datas = new List<Data>();
                     List<Doubles> dubbel = new List<Doubles>();
+                    List<Doubles> tellen = new List<Doubles>();
 
                     SqlConnection connection = new SqlConnection(@"Data Source=BTO;Initial Catalog=CoreDb;Integrated Security=True");
                     // SqlConnection connection = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=Importexcel;Integrated Security=True;Pooling=False");
@@ -156,16 +157,16 @@ namespace EPPlusCore.Controllers
                     connection.Close();
 
                     int dubbele_data = 0;
+                    Doubles counting = new Doubles();
                     for (int i = 4; i <= totalRows; i++)
                     {
                         Issue issue = new Issue();
-                        
+                        counting.aantalrijen++;
                         issue.Gereed = workSheet.Cells[i, 1].Value.ToString();
                         issue.Project_Code = (Double)workSheet.Cells[i, 2].Value;
                         issue.Organisatie_Code = (Double)workSheet.Cells[i, 3].Value;
                         issue.Input_Bron = (Double)workSheet.Cells[i, 4].Value;
                         issue.AardId = (Double)workSheet.Cells[i, 5].Value;
-                        
                         issue.Categorie = workSheet.Cells[i, 6].Value.ToString();
                         issue.Actiehouder = workSheet.Cells[i, 7].Value.ToString();
                         issue.Prioriteit = workSheet.Cells[i, 8].Value.ToString();
@@ -179,7 +180,7 @@ namespace EPPlusCore.Controllers
                         issue.Datum_Gepland = workSheet.Cells[i, 16].Value.ToString();
                         issue.Datum_Gereed = workSheet.Cells[i, 17].Value.ToString();
                         issue.Status = workSheet.Cells[i, 18].Value.ToString();
-
+                        tellen.Add(counting);
 
 
                         foreach (var item in datas)
@@ -205,12 +206,23 @@ namespace EPPlusCore.Controllers
 
                     if (dubbele_data != 0)
                     {
-                        model.answer = "Er is/zijn " + dubbele_data + " dubbele rijen gevonden. De nieuwe records zijn toegevoegd. De dubbele data is gevonden op lijn : ";
-                        foreach (var item in dubbel)
+                        Debug.WriteLine("!!!!!!!!!!!!!!!! DUBBEL COUNT = " + dubbel.Count);
+                        Debug.WriteLine("!!!!!!!!!!!!!!!! ISSUE COUNT = " + tellen.Count);
+
+                        if (dubbel.Count == tellen.Count)
                         {
-                            model.answer += " ";
-                            model.answer += item.rij.ToString();
+                           model.answer = "Er is alleen dubbele data gevonden , er is niks geimporteerd.";
                         }
+                        else
+                        {
+                            model.answer = "Er is/zijn " + dubbele_data + " dubbele rijen gevonden. De nieuwe records zijn toegevoegd. De dubbele data is gevonden op lijn : ";
+                            foreach (var item in dubbel)
+                            {
+                                model.answer += " ";
+                                model.answer += item.rij.ToString();
+                            }
+                        }
+                        
                     }
                     else
                     {

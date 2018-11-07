@@ -8,5 +8,6 @@ namespace Importexcel.Models
     public class Doubles
     {
         public int rij { get; set; }
+        public int aantalrijen { get; set; }
     }
 }
