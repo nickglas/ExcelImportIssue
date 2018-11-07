@@ -106,6 +106,7 @@ namespace EPPlusCore.Controllers
                     Debug.Write(connection.State.ToString());
                     SqlCommand cmd = new SqlCommand("SELECT * FROM Issue", connection);
                     SqlDataReader reader = cmd.ExecuteReader();
+                    
                     while (reader.Read())
                     {
                         Data item = new Data();
@@ -164,6 +165,7 @@ namespace EPPlusCore.Controllers
                         issue.Organisatie_Code = (Double)workSheet.Cells[i, 3].Value;
                         issue.Input_Bron = (Double)workSheet.Cells[i, 4].Value;
                         issue.AardId = (Double)workSheet.Cells[i, 5].Value;
+                        
                         issue.Categorie = workSheet.Cells[i, 6].Value.ToString();
                         issue.Actiehouder = workSheet.Cells[i, 7].Value.ToString();
                         issue.Prioriteit = workSheet.Cells[i, 8].Value.ToString();
@@ -184,7 +186,7 @@ namespace EPPlusCore.Controllers
                         {
                             if (issue.Project_Code == item.Project_Code)
                             {
-                                dubbele_data += 1;
+                                dubbele_data++;
                                 // Response.WriteAsync("<script>alert('DUBBELE DATA GEVONDEN!');</script>");
                                 Doubles doubles = new Doubles();
                                 doubles.rij = dubbele_data + 3;
@@ -198,13 +200,12 @@ namespace EPPlusCore.Controllers
                             Debug.WriteLine("\n\n ISSUE Lijnnummer " + i + " Added \n ");
                             issuelist.Add(issue);
                         }
-
                         _db.Issue.AddRange(issuelist);
                     }
 
                     if (dubbele_data != 0)
                     {
-                        model.answer = "Er is/zijn " + dubbele_data + " dubbele rijen gevonden. De rest is toegevoegd. Het gaat om rij : ";
+                        model.answer = "Er is/zijn " + dubbele_data + " dubbele rijen gevonden. De nieuwe records zijn toegevoegd. De dubbele data is gevonden op lijn : ";
                         foreach (var item in dubbel)
                         {
                             model.answer += " ";
@@ -216,7 +217,9 @@ namespace EPPlusCore.Controllers
                         model.answer = "Succesvol toegevoegd";
                     }
                     _db.SaveChanges();
-                    return View(model);
+                    //return RedirectToAction("Index", "Issue");
+                    return View("index", model);
+
                 }
             }
             catch (Exception error)
@@ -283,8 +286,8 @@ namespace EPPlusCore.Controllers
         }
 
         [HttpGet]
-        [Route("ExportCustomer")]
-        public IActionResult ExportCustomer()
+        [Route("ExportIssue")]
+        public IActionResult ExportIssue()
         {
             string rootFolder = _hostingEnvironment.WebRootPath;
             string fileName = @"ExportIssues.xlsx";
@@ -357,10 +360,27 @@ namespace EPPlusCore.Controllers
                     i++;
                     worksheet.Cells["A1:Z40"].AutoFitColumns();
                 }
-                package.Save();
+                if (issuelist.Count != 0)
+                {
+                    package.Save();
+                }
+                else
+                {
+                    response model = new response();
+                    model.answer = "Er is geen data om te downloaden.";
+                    return View(model);
+                }
+                
             }
             return File("~/ExportIssues.xlsx", MediaTypeNames.Text.Plain, "ExportIssues.xlsx");
 
+        }
+
+        [HttpGet]
+        [Route("template")]
+        public IActionResult template()
+        {
+            return File("~/issue_import.xlsx", MediaTypeNames.Text.Plain, "issue_import.xlsx");
         }
     }
 }

@@ -31,3 +31,4 @@ C:\Users\dave\Desktop\Importexcel\Importexcel\obj\Debug\netcoreapp2.1\Razor\View
 C:\Users\dave\Desktop\Importexcel\Importexcel\obj\Debug\netcoreapp2.1\Razor\Views\Issue\Leegmaken.g.cshtml.cs
 C:\Users\dave\Desktop\Importexcel\Importexcel\obj\Debug\netcoreapp2.1\Razor\Views\Issue\Post.g.cshtml.cs
 C:\Users\dave\Desktop\Importexcel\Importexcel\obj\Debug\netcoreapp2.1\Razor\Views\Issue\tabel.g.cshtml.cs
+C:\Users\dave\Desktop\Importexcel\Importexcel\obj\Debug\netcoreapp2.1\Razor\Views\Issue\ExportIssue.g.cshtml.cs
