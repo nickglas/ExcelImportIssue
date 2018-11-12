@@ -1,10 +1,11 @@
 ﻿@model response
 
 <form method="post" enctype="multipart/form-data" asp-controller="Issue" asp-action="Post">
+    <h3>Upload status : @Model.answer</h3> <br />
+    <h5><a  asp-area="" asp-controller="Issue" asp-action="template">Download hier uw template</a></h5><br />
     <div class="form-group">
         <div class="col-md-10">
             <div class="col-md-10">
-                <label>Upload status: @Model.answer</label>
             </div>
             <input type="file" name="files" required />
         </div>
